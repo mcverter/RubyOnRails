@@ -1,0 +1,9 @@
+{
+    "username" : "frank",
+    "api" : "quack",
+    "name" : "hi",
+    "version" : 1,
+    "pizzatruck" : 55,
+    "port" : 1339,
+    "host" : "127.0.0.1"
+}
