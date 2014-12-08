@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;pkg_DB_java&apos;" deleteContents="false" description="Delete resource &apos;pkg_DB_java&apos;" element1="/pkg_DB_java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1393081756146"/>&#x0A;<refactoring comment="Delete resource &apos;FactoryPattern&apos;" deleteContents="true" description="Delete resource &apos;FactoryPattern&apos;" element1="/FactoryPattern" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1393083286220"/>
-</session>
