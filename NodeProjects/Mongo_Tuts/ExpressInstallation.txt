@@ -1,0 +1,26 @@
+INDOWS\2014_CodeStudies\NodeProjects\Mongo_Tuts>express mongo-js
+
+   create : mongo-js
+   create : mongo-js/package.json
+   create : mongo-js/app.js
+   create : mongo-js/public
+   create : mongo-js/public/javascripts
+   create : mongo-js/public/images
+   create : mongo-js/public/stylesheets
+   create : mongo-js/public/stylesheets/style.css
+   create : mongo-js/routes
+   create : mongo-js/routes/index.js
+   create : mongo-js/routes/users.js
+   create : mongo-js/views
+   create : mongo-js/views/index.jade
+   create : mongo-js/views/layout.jade
+   create : mongo-js/views/error.jade
+   create : mongo-js/bin
+   create : mongo-js/bin/www
+
+   install dependencies:
+     $ cd mongo-js && npm install
+
+   run the app:
+     $ DEBUG=mongo-js ./bin/www
+
