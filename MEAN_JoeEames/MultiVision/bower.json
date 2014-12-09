@@ -1,0 +1,25 @@
+{
+  "name": "MultiVision",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mcverter/2014_CodeStudies",
+  "authors": [
+    "mcverter <mitchell.verter@gmail.com>"
+  ],
+  "description": "Eames test project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "jquery": "~2.0.3",
+      "toastr": "~2.0.1",
+      "angular": "~1.2.0",
+      "angular-resource": "~1.2.0",
+      "angular-route": "~1.2.0"
+  }
+}
