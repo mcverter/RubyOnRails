@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-init="title='Angular'; items=[1,2,3,4]">
+Hello {{title}}
+
+<input type="text" ng-model="q" />
+
+<div ng-repeat="item in items | filter q" ng-hide="hide">
+    {{item}}
+</div>
+<button ng-click="hide=!hide">Toggle Show/Hide</button>
+<button ng-click="items[items.length]=items.length">Add new Item</button>
+<script src="../video-exercises/in-video-exercises/M1/angular.js"></script>
+</body>
+</html>

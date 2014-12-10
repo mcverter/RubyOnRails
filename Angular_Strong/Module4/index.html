@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html ng-app="Mod">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../video-exercises/in-video-exercises/M4/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../video-exercises/in-video-exercises/M4/css/shared.css" />
+</head>
+<body ng-controller="HelloCtrl">
+<section>
+    <h2>ngIf</h2>
+    <nav>
+        <button class="btn btn-primary" ng-click="on=true">on=true</button>
+        <button class="btn btn-primary" ng-click="on=false">on=false</button>
+    </nav>
+    <div ng-if="on" class="panel">
+        <p> I am visible if ng-if is true</p>
+    </div>
+</section>
+
+<section ng-init="show=true; hide=false">
+    <h2> ng Show / Hide</h2>
+    <nav>
+        <button class="btn btn-primary" ng-click="show=true">show=true</button>
+        <button class="btn btn-primary" ng-click="show=false">show=false</button>
+        <button class="btn btn-primary" ng-click="show=!show">show=!show</button>
+    </nav>
+    <div ng-show="show" class="panel">
+        <p> I am visible if ng-show is true</p>
+    </div>
+
+    <nav>
+        <button class="btn btn-primary" ng-click="hide=true">hide=true</button>
+        <button class="btn btn-primary" ng-click="hide=false">hide=false</button>
+    </nav>
+
+    <div ng-hide="hide" class="panel">
+        <p> I am visible if ng-hide is false</p>
+    </div>
+</section>
+
+<section ng-controller="RepeatCtrl">
+    <h2>NgRepeat</h2>
+    <nav>
+        <button class="btn btn-primary" ng-click="setColors()">Colors</button>
+        <button class="btn btn-primary" ng-click="setStates()">States</button>
+        <button class="btn btn-disabled" ng-click="values=null">[nothing]</button>
+    </nav>
+
+    <div ng-hide="getValues()" class="panel">
+        <p> There are no values</p>
+    </div>
+
+    <div ng-show="getValues()" class="panel">
+        <div ng-repeat="value in getValues()">
+            {{ $index + 1}}. {{value}}
+        </div>
+    </div>
+</section>
+
+<section>
+    <nav>
+        <button class="btn btn-primary" ng-click="slide='one'">Slide 1</button>
+        <button class="btn btn-primary" ng-click="slide='two'">Slide 2</button>
+        <button class="btn btn-primary" ng-click="slide='three'">Slide 3</button>
+        <button class="btn btn-primary" ng-click="slide='other'">Other Slide</button>
+    </nav>
+
+    <div ng-switch="slide" class="slides">
+        <div ng-switch-when="one" class="slide-1">
+            Slide 1
+        </div>
+        <div ng-switch-when="one" class="slide-2">
+            Slide 2
+        </div>
+        <div ng-switch-when="one" class="slide-3">
+            Slide 3
+        </div>
+        <div ng-switch-when="other" class="slide-other">
+            Other Slide
+        </div>
+    </div>
+
+</section>
+<section>
+    <h2>ng include</h2>
+    <script type="text/ng-template" id="other.html">
+        <div class="slide-2">Other Slide</div>
+    </script>
+
+    <nav>
+        <button class="btn btn-primary" ng-click="tpl='home.html'">home template</button>
+        <button class="btn btn-primary" ng-click="tpl='other.html'">other template</button>
+        <button class="btn btn-primary" ng-click="tpl=null">other template</button>
+    </nav>
+
+    <div ng-include="tpl" class="slides"></div>
+</section>
+
+<section>
+    <h2>ngModel, ngBlur, ngFocus and ng class</h2>
+
+    <nav>
+        <button class="btn btn-primary" ng-click="title='lukas'">lukas title</button>
+        <button class="btn btn-primary" ng-click="title=null">null title</button>
+    </nav>
+<p>
+    <span ng-class="{'label-success':focus }" class="label label-default">Ficys!</span>
+    <span ng-class="{'label-warning':!focus }" class="label label-default">Blur!</span>
+
+</p>
+    <p>
+
+
+    <input ng-model="title" class="form-control" ng-focus="focus=true" ng-blur="focus=false" placeholder="enter a title">
+</p>
+    <div class="panel">
+        <p>THe title of your book is {{title.length? title: "No title"}}</p>
+    </div>
+</section>
+<section>
+    <h2>ng submit</h2>
+    <form name="myform" ng-submit="submit()" ng-controller="FormCtrl">
+        <div class="form-group">
+            <label>Name:</label>
+            <input type="text" ng-model="name">
+        </div>
+        <div class="form-group">
+            <label>Age:</label>
+            <select ng-model="age" ng-options="age for age in generateAges()">
+                </select>
+            <input type="submit" />
+        </div>
+
+    </form>
+</section>
+<script src="../video-exercises/in-video-exercises/M1/angular.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="row">
+    <div class="left-col" class="page-list" ng-controller="ListCtrl">
+        <a href="" ng-repeat="user in users track by user.id" ng-click="selectUser(user)" class="user-listing">
+            {{user.first_name}} {{user.last_name}}
+
+        </a>
+    </div>
+</div>
+<div class="right-col" class="page-details" ng-controller="DetailCtrl">
+    <div ng-if="!currentUser" class="panel">
+        <p>you have not selected an employee</p>
+    </div>
+    <div ng-if="currentUser" class="panel row">
+        <img ng-src="{{currentUser.picture}}" class="col-md-4">
+        <div class="col=md-4">
+            <p>Name: {{currentUser.first_name}}</p>
+            <p>Email: {{currentUser.email}}</p>
+            <p>Company: {{currentUser.company}}</p>
+        </div>
+    </div>
+</div>
+<script src="../video-exercises/in-video-exercises/M1/angular.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>

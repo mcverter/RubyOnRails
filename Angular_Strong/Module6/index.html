@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../video-exercises/in-video-exercises/M4/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../video-exercises/in-video-exercises/M4/css/shared.css" />
+</head>
+<body>
+<div ng-controller="SocialCtrl">
+<div ng-repeat="(id, name) in service">
+    <span social-item="{{id}}"></span>{{name}}
+</div>
+</div>
+<div my-circle></div>
+<my-rectangle></my-rectangle>
+
+<script src="../video-exercises/in-video-exercises/M1/angular.js"></script>
+<script src="./app.js"></script>
+<script src="./example.js"></script>
+</body>
+</html>
