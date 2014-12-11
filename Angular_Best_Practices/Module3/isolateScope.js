@@ -4,6 +4,7 @@ app.controller('scInstructorsCtrl', function($scope, scFollowedInstructors){
   $scope.followedInstCount = scFollowedInstructors.length;
 
   this.followInstructor = function(instructor){
+    console.log(instructor);
     scFollowedInstructors.push(instructor);
     $scope.followedInstCount = scFollowedInstructors.length;
   }
@@ -17,7 +18,7 @@ app.directive('scInstructors', function() {
     template: '<div>instructors {{followedInstCount}} followed</div>' +
       '<div class="row" ng-repeat="instructor in instructorList">' +
       '<div class="col-md-6">{{instructor.name}}</div>' +
-      '<div class="col-md-6"><sc-follow-instructor instructor="instructor"></sc-follow-instructor></div>' +
+      '<div class="col-md-6"><sc-follow-instructor instructor-to-follow="instructor"></sc-follow-instructor></div>' +
       '</div>' +
       '</div>'
   }
@@ -31,7 +32,7 @@ app.directive('scFollowInstructor', function(){
       '<button class="btn" ng-click="followInstructor()">Follow</button>' +
       '</div>',
     scope : {
-      instructor: '='
+      instructor: 'instructorToFollow'
     },
     require: '^scInstructors', // name of directive, not of controller
     link: function(scope, element, attrs, ctrl){
