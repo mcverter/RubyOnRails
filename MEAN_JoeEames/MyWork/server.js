@@ -3,7 +3,7 @@ var express = require('express'),
     env = process.env.NODE_ENV = process.env.NODE_ENV || 'development',
     app = express();
 
-app.set('views', HOME + '/server/views');
+app.set('views', __dirname + '/server/views');
 app.set('view engine', 'jade');
 
 
