@@ -1,0 +1,25 @@
+{
+  "name": "MyWork",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mcverter/2014_CodeStudies",
+  "authors": [
+    "mcverter <mitchell.verter@gmail.com>"
+  ],
+  "description": "bower files",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "toastr": "~2.1.0",
+    "angular": "~1.3.6",
+    "angular-resource": "~1.3.6",
+    "angular-route": "~1.3.6"
+  }
+}
