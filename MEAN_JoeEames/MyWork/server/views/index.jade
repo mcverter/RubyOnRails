@@ -1,4 +1,5 @@
-html
-   head
-   body
-      h1 Hwllo World
+include ../includes/layout
+block main-content
+   section.content
+      div(ng-view)
+   h2= mongoMessage
