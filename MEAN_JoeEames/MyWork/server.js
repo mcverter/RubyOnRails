@@ -12,4 +12,4 @@ app.get('*', function(req, res) {
 
 var port = 3030;
 app.listen(port);
-console.log("Listening to port " + port + "...")
+console.log("Listening to port " + port + "...");
