@@ -1,0 +1,460 @@
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+c:\Users\mitchell>cd c:/Program*
+cd c:/Program*
+
+c:\Program Files>ls
+ls
+ABBYY FineReader 11
+Adobe
+Application Verifier
+AuthenTec
+Bonjour
+CDisplayEx
+CanonBJ
+Common Files
+DIFX
+DVD Maker
+ExamDiff Pro
+Google
+IIS
+IIS Express
+Intel
+Intel Corporation
+Internet Explorer
+Lenovo
+MLPS
+MSBuild
+Microsoft Identity Extensions
+Microsoft SQL Server
+Microsoft SQL Server Compact Edition
+Microsoft Silverlight
+Microsoft Visual Studio 12.0
+MongoDB 2.6 Standard
+Protector Suite
+Realtek
+Reference Assemblies
+SharePoint Client Components
+Sublime Text 2
+Synaptics
+ThinkPad
+ThinkVantage Fingerprint Software
+TortoiseSVN
+Uninstall Information
+Windows Defender
+Windows Identity Foundation
+Windows Journal
+Windows Live
+Windows Mail
+Windows Media Player
+Windows NT
+Windows Photo Viewer
+Windows Portable Devices
+Windows Sidebar
+desktop.ini
+iPod
+iTunes
+
+c:\Program Files>ls M*
+ls M*
+MLPS:
+apps
+
+MSBuild:
+Microsoft
+Microsoft.VisualStudio.OfficeTools.targets
+
+Microsoft Identity Extensions:
+1.0
+
+Microsoft SQL Server:
+100
+110
+80
+90
+
+Microsoft SQL Server Compact Edition:
+v4.0
+
+Microsoft Silverlight:
+5.1.30514.0
+sllauncher.exe
+xapauthenticodesip.dll
+
+Microsoft Visual Studio 12.0:
+Common7
+
+MongoDB 2.6 Standard:
+GNU-AGPL-3.0
+README
+THIRD-PARTY-NOTICES
+bin
+
+c:\Program Files>mv Mongo* ..
+mv Mongo* ..
+mv: cannot move `MongoDB 2.6 Standard' to `../MongoDB 2.6 Standard'
+
+c:\Program Files>cp Mongo* ..
+cp Mongo* ..
+cp: omitting directory `MongoDB 2.6 Standard'
+
+c:\Program Files
+
+c:\Program Files>
+
+c:\Program Files>ls ..
+ls ..
+$Recycle.Bin
+Autoconfig.ini
+BOOTSECT.BAK
+Boot
+ComputerScience_WINDOWS
+Config.Msi
+DRIVERS
+Documents and Settings
+FFOutput
+Intel
+MSOCache
+Mac OS X Snow Leopard 10.6.8 VMware Image [Ultimate Build]
+Nodist
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+Python27
+RHDSetup.log
+SWTOOLS
+Scrap
+System Volume Information
+Temp
+Users
+VC_RED.MSI
+VC_RED.cab
+Windows
+bootmgr
+bootsqm.dat
+cygwin64
+data
+eula.1028.txt
+eula.1031.txt
+eula.1033.txt
+eula.1036.txt
+eula.1040.txt
+eula.1041.txt
+eula.1042.txt
+eula.2052.txt
+eula.3082.txt
+found.000
+found.001
+globdata.ini
+hiberfil.sys
+htdocs
+install.exe
+install.ini
+install.res.1028.dll
+install.res.1031.dll
+install.res.1033.dll
+install.res.1036.dll
+install.res.1040.dll
+install.res.1041.dll
+install.res.1042.dll
+install.res.2052.dll
+install.res.3082.dll
+mfg
+ooom
+pagefile.sys
+setup.log
+swshare
+vcredist.bmp
+xampp
+
+c:\Program Files>cd ..
+cd ..
+
+c:\>cd mongo
+cd mongo
+
+c:\mongo>ls
+ls
+GNU-AGPL-3.0
+README
+THIRD-PARTY-NOTICES
+bin
+
+c:\mongo>cd bin
+cd bin
+
+c:\mongo\bin>ls
+ls
+bsondump.exe
+mongo.exe
+mongod.exe
+mongod.pdb
+mongodump.exe
+mongoexport.exe
+mongofiles.exe
+mongoimport.exe
+mongooplog.exe
+mongoperf.exe
+mongorestore.exe
+mongos.exe
+mongos.pdb
+mongostat.exe
+mongotop.exe
+
+c:\mongo\bin>mongod &
+mongod &
+mongod --help for help and startup options
+2014-09-09T12:43:09.843-0400 [initandlisten] MongoDB starting : pid=9616 port=27017 dbpath=\data\db\ 64-bit host=mitchell-THINK
+2014-09-09T12:43:09.844-0400 [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2014-09-09T12:43:09.844-0400 [initandlisten] db version v2.6.4
+2014-09-09T12:43:09.844-0400 [initandlisten] git version: 3a830be0eb92d772aa855ebb711ac91d658ee910
+2014-09-09T12:43:09.844-0400 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-09-09T12:43:09.844-0400 [initandlisten] allocator: system
+2014-09-09T12:43:09.844-0400 [initandlisten] options: {}
+2014-09-09T12:43:09.845-0400 [initandlisten] exception in initAndListen: 13627 Unable to create/open lock file: \data\db\mongod.lock The process cannot access the file because it is being used by another process.. Is a mongod instance already running?, terminating
+2014-09-09T12:43:09.845-0400 [initandlisten] dbexit: 
+2014-09-09T12:43:09.845-0400 [initandlisten] shutdown: going to close listening sockets...
+2014-09-09T12:43:09.845-0400 [initandlisten] shutdown: going to flush diaglog...
+2014-09-09T12:43:09.845-0400 [initandlisten] shutdown: going to close sockets...
+2014-09-09T12:43:09.845-0400 [initandlisten] shutdown: waiting for fs preallocator...
+2014-09-09T12:43:09.845-0400 [initandlisten] shutdown: lock for final commit...
+2014-09-09T12:43:09.845-0400 [initandlisten] shutdown: final commit...
+2014-09-09T12:43:09.845-0400 [initandlisten] shutdown: closing all files...
+2014-09-09T12:43:09.845-0400 [initandlisten] closeAllFiles() finished
+2014-09-09T12:43:09.845-0400 [initandlisten] dbexit: really exiting now
+
+c:\mongo\bin>
+
+c:\mongo\bin>mongo
+mongo
+MongoDB shell version: 2.6.4
+connecting to: test
+
+
+show dbs
+admin      (empty)
+bookmarks  0.078GB
+local      0.078GB
+
+use newtest
+switched to db newtest
+
+db.links.count()
+0
+
+db.links.insert({title: 'first', url: 'http://www.first.com'});
+WriteResult({ "nInserted" : 1 })
+
+db.links.count()
+1
+
+var doc = {}
+;
+
+doc.title="moo";
+moo
+doc.url = 'http://www.moo.com';
+http://www.moo.com
+
+doc.features = ['good','great,'swell'];
+2014-09-09T12:46:29.200-0400 SyntaxError: Unexpected identifier
+
+doc.features = ['good','great','swell'];
+[ "good", "great", "swell" ]
+
+doc.moota = {};
+{ }
+
+doc.moota.browser = "Chrome";
+Chrome
+
+doc
+{
+	"title" : "moo",
+	"url" : "http://www.moo.com",
+	"features" : [
+		"good",
+		"great",
+		"swell"
+	],
+	"moota" : {
+		"browser" : "Chrome"
+	}
+}
+db.links.save(doc)
+WriteResult({ "nInserted" : 1 })
+
+db.links.count()
+2
+
+db.links.find()
+{ "_id" : ObjectId("540f2ea15aaf96f02a17543d"), "title" : "first", "url" : "http://www.first.com" }
+{ "_id" : ObjectId("540f2f255aaf96f02a17543e"), "title" : "moo", "url" : "http://www.moo.com", "features" : [ "good", "great", "swell" ], "moota" : { "browser" : "Chrome" } }
+
+db.links.find().forEach(printjson)
+{
+	"_id" : ObjectId("540f2ea15aaf96f02a17543d"),
+	"title" : "first",
+	"url" : "http://www.first.com"
+}
+{
+	"_id" : ObjectId("540f2f255aaf96f02a17543e"),
+	"title" : "moo",
+	"url" : "http://www.moo.com",
+	"features" : [
+		"good",
+		"great",
+		"swell"
+	],
+	"moota" : {
+		"browser" : "Chrome"
+	}
+}
+
+db.links.insert({_id: 3, name:"test", url: "http://wwwfest.com"})
+WriteResult({ "nInserted" : 1 })
+
+db.links.find().forEach(printjson)
+{
+	"_id" : ObjectId("540f2ea15aaf96f02a17543d"),
+	"title" : "first",
+	"url" : "http://www.first.com"
+}
+{
+	"_id" : ObjectId("540f2f255aaf96f02a17543e"),
+	"title" : "moo",
+	"url" : "http://www.moo.com",
+	"features" : [
+		"good",
+		"great",
+		"swell"
+	],
+	"moota" : {
+		"browser" : "Chrome"
+	}
+}
+{ "_id" : 3, "name" : "test", "url" : "http://wwwfest.com" }
+
+
+db.links.find()[0];
+{
+	"_id" : ObjectId("540f2ea15aaf96f02a17543d"),
+	"title" : "first",
+	"url" : "http://www.first.com"
+}
+
+db.links.find()[0]._id;
+ObjectId("540f2ea15aaf96f02a17543d")
+
+db.links.find()[0]._id.getTimestamp();
+ISODate("2014-09-09T16:45:21Z")
+
+db.links.find()[1]._id.getTimestamp();
+ISODate("2014-09-09T16:47:33Z")
+
+db.links.find()[2]._id.getTimestamp();
+2014-09-09T12:50:13.839-0400 TypeError: Object 3 has no method 'getTimestamp'
+
+db.links.find().forEach(printJson)
+2014-09-09T12:50:56.980-0400 ReferenceError: printJson is not defined
+
+db.links.find().forEach(printjson)
+{
+	"_id" : ObjectId("540f2ea15aaf96f02a17543d"),
+	"title" : "first",
+	"url" : "http://www.first.com"
+}
+{
+	"_id" : ObjectId("540f2f255aaf96f02a17543e"),
+	"title" : "moo",
+	"url" : "http://www.moo.com",
+	"features" : [
+		"good",
+		"great",
+		"swell"
+	],
+	"moota" : {
+		"browser" : "Chrome"
+	}
+}
+{ "_id" : 3, "name" : "test", "url" : "http://wwwfest.com" }
+
+
+
+db.users.insert({name:"Andrew"})
+WriteResult({ "nInserted" : 1 })
+
+var a = db.users.findOne({name:"Andrew"})
+
+a
+{ "_id" : ObjectId("540f58fb5aaf96f02a17543f"), "name" : "Andrew" }
+a._id
+ObjectId("540f58fb5aaf96f02a17543f")
+
+
+db.links.insert({title: "moo", url:"nii,cin", userId: a._id});
+WriteResult({ "nInserted" : 1 })
+db.links.find()
+{ "_id" : ObjectId("540f2ea15aaf96f02a17543d"), "title" : "first", "url" : "http://www.first.com" }
+{ "_id" : ObjectId("540f2f255aaf96f02a17543e"), "title" : "moo", "url" : "http://www.moo.com", "features" : [ "good", "great", "swell" ], "moota" : { "browser" : "Chrome" } }
+{ "_id" : 3, "name" : "test", "url" : "http://wwwfest.com" }
+{ "_id" : ObjectId("540f59655aaf96f02a175440"), "title" : "moo", "url" : "nii,cin", "userId" : ObjectId("540f58fb5aaf96f02a17543f") }
+
+
+var link = db.links.find()[2]
+link
+{ "_id" : 3, "name" : "test", "url" : "http://wwwfest.com" }
+var link = db.links.find()[3]
+link
+{
+	"_id" : ObjectId("540f59655aaf96f02a175440"),
+	"title" : "moo",
+	"url" : "nii,cin",
+	"userId" : ObjectId("540f58fb5aaf96f02a17543f")
+}
+
+
+db.users.findOne({_id: link.userid});
+2014-09-09T15:49:43.982-0400 error: {
+	"$err" : "Can't canonicalize query: BadValue cannot compare to undefined",
+	"code" : 17287
+} at src/mongo/shell/query.js:131
+
+users
+2014-09-09T15:49:51.791-0400 ReferenceError: users is not defined
+db.users
+newtest.users
+
+
+db.users.findOne({_id: link.userid})
+2014-09-09T15:50:23.593-0400 error: {
+	"$err" : "Can't canonicalize query: BadValue cannot compare to undefined",
+	"code" : 17287
+} at src/mongo/shell/query.js:131
+link.userid
+
+
+link
+{
+	"_id" : ObjectId("540f59655aaf96f02a175440"),
+	"title" : "moo",
+	"url" : "nii,cin",
+	"userId" : ObjectId("540f58fb5aaf96f02a17543f")
+}
+link.userId
+ObjectId("540f58fb5aaf96f02a17543f")
+db.users
+newtest.users
+db.users.find()
+Process shell exited abnormally with code 4
+
+
+{ "_id" : ObjectId("540f58fb5aaf96f02a17543f"), "name" : "Andrew" }
+db.users.findOne({_id: link.userId})
+{ "_id" : ObjectId("540f58fb5aaf96f02a17543f"), "name" : "Andrew" }
+
+
+
