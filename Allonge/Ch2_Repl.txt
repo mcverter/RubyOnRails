@@ -1,0 +1,92 @@
+> function plus(a,b) {
+... return a +b
+... }
+undefined
+> plus(2,3)
+5
+> plus.call(this, 2, 3)
+5
+>[1,2,3,4,5].slice(1)
+[ 2, 3, 4, 5 ]
+> function butFirst() {
+... return Array.prototype.slice.call(arguments, 1)
+... }
+undefined
+> butFirst('a','b','c','d')
+[ 'b', 'c', 'd' ]
+> var __slice = Array.prototype.slice
+undefined
+> function slice (list, from, to) {
+... return __slice.call(list, from , to)
+... }
+undefined
+> [1,2,3].concat([2,1])
+[ 1, 2, 3, 2, 1 ]
+> function(a,b,c){return a +b +c}.length
+3
+> var __slice = Array.prototype.slice;
+undefined
+> function callFirst (fn, larg) {
+... return function () {
+..... var args = __slice.call(arguments,0);
+..... return fn.apply(this, [larg].concat(args))
+..... }
+... }
+... 
+... 
+... ... 
+Invalid REPL keyword
+undefined
+> var __slice = Array.prototype.slice;
+undefined
+> function callFirst (fn, larg) {
+... return function () {
+..... var args = __slice.call(arguments,0);
+..... return fn.apply(this, [larg].concat(args))
+..... }
+... }
+undefined
+> function callLast(fn, rarg) {
+... return function () {
+..... var args = __slice.call(arguments,0);
+..... return fn.apply(this, args.concat([rarg]))
+..... }
+... }
+undefined
+> function greet (me, you) {
+... return "Hello, " + you + ", my name is " + me
+... }
+undefined
+> var helioSaysHello = callFirst(greet, 'Helios');
+undefined
+> helioSaysHello("Eartha")
+ReferenceError: helioaysHello is not defined
+    at repl:1:2
+    at REPLServer.self.eval (repl.js:110:21)
+    at Interface.<anonymous> (repl.js:239:12)
+    at Interface.emit (events.js:95:17)
+    at Interface._onLine (readline.js:203:10)
+    at Interface._line (readline.js:532:8)
+    at Interface._ttyWrite (readline.js:768:16)
+    at ReadStream.onkeypress (readline.js:100:10)
+    at ReadStream.emit (events.js:98:17)
+    at emitKey (readline.js:1096:12)
+> heliosaysHello("Eartha")
+ReferenceError: heliosaysHello is not defined
+    at repl:1:2
+    at REPLServer.self.eval (repl.js:110:21)
+    at Interface.<anonymous> (repl.js:239:12)
+    at Interface.emit (events.js:95:17)
+    at Interface._onLine (readline.js:203:10)
+    at Interface._line (readline.js:532:8)
+    at Interface._ttyWrite (readline.js:768:16)
+    at ReadStream.onkeypress (readline.js:100:10)
+    at ReadStream.emit (events.js:98:17)
+    at emitKey (readline.js:1096:12)
+> helioSaysHello("Eartha")
+'Hello, Eartha, my name is Helios'
+> var sayHelloToCeline = callLast(greet, 'Celine')
+undefined
+> sayHelloToCeline('Eartha')
+'Hello, Celine, my name is Eartha'
+> 
