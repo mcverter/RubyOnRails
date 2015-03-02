@@ -4,11 +4,11 @@ userSchema = new mongoose.Schema({
     email: {
 	type: String,
 	unique: true
-    }
+    },
     createdOn: {
 	type: Date,
     default: Date.now
-    }
+    },
     modifiedOn: Date,
     lastLogin: Date
   

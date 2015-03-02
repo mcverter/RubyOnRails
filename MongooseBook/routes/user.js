@@ -1,5 +1,5 @@
 var mongoose = require('mongooste'),
-User = mongoose.model('User');
+    User = mongoose.model('User');
 var clearSession = function (session, callback) {
     session.destroy();
     callback();
@@ -7,146 +7,145 @@ var clearSession = function (session, callback) {
 
 exports.create = function(req, res) {
     res.render('user-form', {
-	title: 'Create user',
-	buttonText: 'Join!',
-	name: "",
-	email: ""
+        title: 'Create user',
+        buttonText: 'Join!',
+        name: "",
+        email: ""
     });
 };
 
 exports.edit = function(req, res) {
     if (req.session.loggedIn !== true) {
-	res.redirect('/login');
+        res.redirect('/login');
     } else {
-	res.render('user-form', {
-	    title: 'Edit profile',
-	    _id: req.session.user._id,
-	    name: req.session.user.name,
-	    email: req.session.user.email,
-	    buttonText: "Save"
-	});
+        res.render('user-form', {
+            title: 'Edit profile',
+            _id: req.session.user._id,
+            name: req.session.user.name,
+            email: req.session.user.email,
+            buttonText: "Save"
+        });
     }
-}
+};
 
 exports.doEdit = function(req, res) {
     if (req.session.user._id) {
-	User.findById(req.session.user._id,
-		      function(err, user) {
-			  if (err) {
-			      console.log(err);
-			      res.redirect('/user?error=finding');
-			      
-			  } else {
-			      user.name = req.body.FullName;
-			      user.email = req.body.Email;
-			      user.modifiedOn = Date.now();
-			      user.save(function(err) {
-				  if (!err) {
-				      console.log('User updated: ' + req.body.FullName);
-				      req.session.user.name = req.body.FullName;
-				      req.session.user.email = req.body.Email;
-				      res.redirect('/user');
-				  }
-			      }
-			  }
-		      }
+        User.findById(req.session.user._id,
+            function(err, user) {
+                if (err) {
+                    console.log(err);
+                    res.redirect('/user?error=finding');
+                } else {
+                    user.name = req.body.FullName;
+                    user.email = req.body.Email;
+                    user.modifiedOn = Date.now();
+                    user.save(function(err) {
+                        if (!err) {
+                            console.log('User updated: ' + req.body.FullName);
+                            req.session.user.name = req.body.FullName;
+                            req.session.user.email = req.body.Email;
+                            res.redirect('/user');
+                        }
+                    });
+                }
+            });
     }
-}
+};
 
 
-    exports.doCreate = function(req, res) {
-	User.create({
-	    name: req.body.FullName,
-	    email: req.body.Email,
-	    modifiedOn: Date.now(),
-	    lastLogin: Date.now()
-	}, function(err, user) {
-	    if ( err) {
-		if (error.code === 11000){
-		    res.redirect('/user/new?exists=true');
-		}
-		else {
-		    res.redirect('/?error=true');
-		}
-	    } else {
-		console.log("User creted and saved " + user);
-		req.session.user = {"name": user.name, "email": user.email, "_id": user._id};
-		req.session.loggedIn = true;
-		res.redirect('/user');
-	    }
-	});
-    };
+exports.doCreate = function(req, res) {
+    User.create({
+        name: req.body.FullName,
+        email: req.body.Email,
+        modifiedOn: Date.now(),
+        lastLogin: Date.now()
+    }, function(err, user) {
+        if ( err) {
+            if (error.code === 11000){
+                res.redirect('/user/new?exists=true');
+            }
+            else {
+                res.redirect('/?error=true');
+            }
+        } else {
+            console.log("User created and saved " + user);
+            req.session.user = {"name": user.name, "email": user.email, "_id": user._id};
+            req.session.loggedIn = true;
+            res.redirect('/user');
+        }
+    });
+};
 
 exports.index = function(req, res) {
     if (req.session.loggedIn === true) {
-	res.render('user-page', {
-	    title: req.session.user.name,
-	    name: req.session.user.name,
-	    email: req.session.user.email,
-	    userID: req.session.user._id
-	    
-	})
+        res.render('user-page', {
+            title: req.session.user.name,
+            name: req.session.user.name,
+            email: req.session.user.email,
+            userID: req.session.user._id
+        })
     } else {
-	res.redirect('/login');
+        res.redirect('/login');
     }
 }
 
 
-exports.login = function(req, re) {
-    res.render('login-form', {title: 'Log in'}
+exports.login = function(req, res) {
+    res.render('login-form', {title: 'Log in'});
 }
 
-    exports.doLogin = function(req, res) {
-	if (req.body.Email) {
-	    User.findOne ({'email': req.body.Email},
-			  '_id name email',
-			  function(err, user) {
-			      if (!err) {
-				  if (!user) {
-				      res.redirect('/login?404=user');
-				  } else {
-				      req.session.user = {
-					  "name": user.name,
-					  "email": user.email,
-					  "_id" : user._id
-				      };
-				      req.sessions.loggedin = "true";
-				      console.log('Logged inuser ' + user);
-				      User.update (
-					  {_id: user._id},
-					  {$set: {lastLogin: Date.now()}},
-					  function() {
-					      res.redirect('/user');
-					  }
-				      )
-				  }
-			      }
-			  })
-	}
+exports.doLogin = function(req, res) {
+    if (req.body.Email) {
+        User.findOne ({'email': req.body.Email},
+            '_id name email',
+            function(err, user) {
+                if (!err) {
+                    if (!user) {
+                        res.redirect('/login?404=user');
+                    } else {
+                        req.session.user = {
+                            "name": user.name,
+                            "email": user.email,
+                            "_id" : user._id
+                        };
+                        req.sessions.loggedin = "true";
+                        console.log('Logged inuser ' + user);
+                        User.update (
+                            {_id: user._id},
+                            {$set: {lastLogin: Date.now()}},
+                            function() {
+                                res.redirect('/user');
+                            }
+                        )
+                    }
+                }
+            });
     }
+};
 
-    exports.confirmDelete = function(req, res) {
-	res.render('user-delete-form', {
-	    title: 'Delete account',
-	    _id: req.session.user._id,
-	    name: req.session.user.name,
-	    email: req.session.user.email
-	};
-		  )};
-    exports.doDelete = function(req,res) {
-	if (req.body._id) {
-	    User.findByIdAndRemove (
-		req.body._id,
-		function (err, user) {
-		    if(err) {
-			console.log(err);
-			return res.redirect('/user?error=deleting');
-		    }
-		    console.log("User delted:" , user);
-		    clearSession(req.session, function() {
-			res.redirect('/');
-		    });
-		}
-	    )
-	}
+exports.confirmDelete = function(req, res) {
+    res.render('user-delete-form', {
+        title: 'Delete account',
+        _id: req.session.user._id,
+        name: req.session.user.name,
+        email: req.session.user.email
+    });
+};
+
+exports.doDelete = function(req,res) {
+    if (req.body._id) {
+        User.findByIdAndRemove (
+            req.body._id,
+            function (err, user) {
+                if(err) {
+                    console.log(err);
+                    return res.redirect('/user?error=deleting');
+                }
+                console.log("User delted:" , user);
+                clearSession(req.session, function() {
+                    res.redirect('/');
+                });
+            }
+        )
     }
+}
