@@ -1,0 +1,17 @@
+/* Styles go here */
+
+.user-ok {
+
+}
+
+.user-warning {
+    color: yellow;
+}
+
+.user-ok {
+    color: orange;
+}
+
+.user-ok {
+    color: red;
+}
