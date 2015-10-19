@@ -1,0 +1,28 @@
+!onfoo @ roadrunneratwast
+<ecmabot> roadrunneratwast: Using ".onclick", ".onchange", or "on" anything is bad practice and results in poorly factored, hard-to-manage code; as well as limiting you to one event listener per event. Consider attaching your events with addEventListener, instead, eg: https://developer.mozilla.org/en/DOM/element.addEventListener
+
+
+metalic (~m3t4l1c@giesta.uma.pt) has joined ##javascript
+<roadrunneratwast> oh wow.  i'm surprised i didn't lint that already
+<roadrunneratwast> ok
+<bprompt> hmmm somehow what ezakimak  said, makes a lot of sense to me
+* jost has quit (Ping timeout: 264 seconds)
+* ughitsaaron has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+* d4rklit3 has quit (Ping timeout: 276 seconds)
+<falafel> roadrunneratwast, but otherwise looks ok to me, although very imperative, JS has lots of builtin things that would make your code half the size easily
+<ezakimak> you might refactor all your button clicks, you have 2 function each repeated 3 times
+* mary5030 has quit (Remote host closed the connection)
+<roadrunneratwast> what sort of builtin things?
+<falafel> roadrunneratwast, map, filter, some, every ...
+<roadrunneratwast> like map
+<roadrunneratwast> yeah
+<roadrunneratwast> okay
+* shmuli_ has quit (Remote host closed the connection)
+<ezakimak> in fact, you could refactor all of your button code, controlled by simple data with name and dimension or name and difficulty
+* Guest27558 has quit (Ping timeout: 255 seconds)
+* tristanseifert (~tristanse@cpe-24-55-9-106.austin.res.rr.com) has joined ##javascript
+* jpwgarrison (U2FsdGVkX1@ma.sdf.org) has joined ##javascript
+<roadrunneratwast> ok
+<roadrunneratwast> yeah.  that bit at the end is a mess
+* Trendrrrr has quit (Ping timeout: 255 seconds)
+<roadrunneratwast> the ui

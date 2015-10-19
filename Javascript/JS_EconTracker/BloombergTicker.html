@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bloomberg Financial Exchange</title>
+    <style>
+        th, tr, td, table, thead {
+            border: 1px black solid;
+        }
+        th {
+            background-color: lightblue;
+        }
+        button {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+<table>
+    <thead>
+    <tr><th>Ticker</th><th>Trade Volume</th></tr>
+    </thead>
+    <tbody id="tickerView"></tbody>
+</table>
+<br>
+<strong>Stock:</strong><input id="tickerName" />
+<br />
+<strong>Volume:</strong><input id="tickerVolume" />
+<br />
+<strong>Total Trades: </strong> <span id="totalTrades"></span>
+<br />
+<button id="submitTrade"> Submit Trade</button>
+<script src="jquery.js"></script>
+<script src="lodash.js"></script>
+<script src="TraderMVC.js"></script>
+</body>
+</html>

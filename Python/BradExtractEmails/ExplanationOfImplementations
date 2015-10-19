@@ -1,0 +1,103 @@
+Average Times
+------
+Third: 0.15 seconds
+Second: 9 seconds
+First: 2.75 seconds
+
+-------
+
+THIRD IMPLEMENTATION
+'''
+In the third implementation, we change our strategy entirely.
+
+We first read the file and, for each unique band in the file, create a set of the line numbers where that file appears.
+
+* bandSets = (bandName, (set of line occurences)) *
+
+We then reduce the number of bandSets by maintaining only those elements where the length of the set > 49.
+
+We then do an intersection between each pair of bandSets and print out all cases where the length of the intersection > 49
+
+
+This is very quick
+
+Let's say that we have L lines and B bands per line
+
+
+SPACE:
+We only are maintaining one data structure, the bandSets.  This is equivalent to a local storage copy of the entire file, so it's O(BL)
+
+TIME:
+The parsing requires us to look at each element , so it's order (BL)
+
+We then reduce the number of bandSets, so we have to look at each Unique Band, order (BL)
+
+We then have to compare each bandSet pair with each other.
+This pairing of bands requires, at worst, O((BL)^2)
+
+Average Time on my system: 0.15 seconds
+'''
+
+SECOND IMPLEMENTATION
+
+'''
+In the second implementation, we tried to cut down on the space and time taken in the first implementation.  This required some more work.
+
+We first read the entire file and create a count of the occurence of each band in the file, and select only those who occur 50 times.
+
+We then manually create bandPairs out of the bands which occur over 50 times.
+
+Then, for each band pair, we count the number of occurences of both bands in each line of the input.
+
+This is also deathly slow and wasteful.
+
+Let's say that we have L lines and B bands per line
+We also have the number of unique bands, U.  Where K is the average number of unique names per line U = k*B*L.
+
+SPACE:
+First of all we are required to maintain the entire list of lines in memory, which is already L*B, O(BL)
+
+We then create a list of counts for each unique band.  The number of unique bands is also be a constant, k, times L*B, k*L*B, O(BL)
+
+We then create a list of pairs of bands whose count is over 49.  If we have all unique bands, then this will be an empty.  If all bands appear 50 times, then the number of unique bands will be empty.  Nevertheless, the pairing will require us to square this number, so we will still be order  O((BL)^2)
+
+
+TIME:
+The parsing requires us to look at each element , so it's order (BL)
+
+The creation of a list of bands over 50 requires us to inspect each unique band, order (BL)
+
+The pairing of bands requires, at worst, O((BL)^2)
+Then we have to compare each pair to each the array that contains each line of the input file, which is L long, so at worst we have O((B^2)(L^3))
+
+Average Time on my system: 9 seconds
+
+The time is actually worse than the first implementation
+'''
+
+
+FIRST IMPLEMENTATION
+
+'''
+In the first implementation, we iterate through each line of the file.
+We split each line and create a pairing for each band on the line.
+The pairing is represented as a hash of hashes, allBands,
+
+* allBands[firstBand][secondBand] = frequencyOfOccurence *
+
+We then iterate through this hash of hashes to find frequencyOfOccurence > 49
+
+This is deathly slow and wasteful.
+
+Let's say that we have L lines and B bands per line
+We also have the number of unique bands, U.  Where K is the average number of unique names per line U = k*B*L.
+
+
+It creates a hash of hashes, which stores U^2 space,  O((BL)^2)
+
+The parsing of the input file uses a for loop within a for loop for each line of the file.  This takes L*B^2 time, O((B^2)L)
+
+We then have to visit each node of the allBands hash of hashes, which we established above was of size order O((BL)^2)
+
+Average Time on my system: 2.75 seconds
+'''

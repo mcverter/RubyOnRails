@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+Enter Value Here <input id="fibIn" />
+<button onclick="calculateFib()">Find Sequence</button>
+
+<script>
+    /*0, 1, 1, 2, 3, 5*/
+    function calculateFib() {
+
+        var val = parseInt(document.getElementById('fibIn').value);
+        var lookupTable = [0,1];
+        for (var i=2; i<= val; i++){
+            lookupTable[i]=lookupTable[i-1]+lookupTable[i-2];
+        }
+        alert(lookupTable[i-1]);
+    }
+</script>
+</body>
+
+</html>

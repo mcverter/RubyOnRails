@@ -16,11 +16,11 @@ userSchema = new mongoose.Schema({
 
 mongoose.model('User', userSchema);
 
-var user1 = newUser({name: 'Simon'});
-var user2 = newUser({name: 'Sally'});
-console.log(userOne.name);
-userOne.name = 'Simon Holmes';
-console.log(userOne.name);
+var user1 = new User({name: 'Simon'});
+var user2 = new User({name: 'Sally'});
+console.log(user1.name);
+user1.name = 'Simon Holmes';
+console.log(user1.name);
 
 user1.save (function(err) {
     if (err) return handleError(err);
