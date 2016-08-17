@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    angular
+            .module("app")
+            .service("VehicleService", VehicleService)
+    function VehicleService() {
+        this.getVehicles = function() {
+            return [
+                {id: 1, name: "X-Wing Fighter"},
+                {id: 2, name: "X-Wing Fighter"},
+                {id: 3, name: "X-Wing Fighter"}
+            ]
+        }
+    }
+
+    angular
+            .module("app")
+            .controller("VehiclesController", VehiclesController);
+    VehiclesController.$inject = ['VehicleService'];
+
+    function VehiclesController(VehicleService) {
+        var vm=this;
+        vm.title = "Services";
+        vm.vehicles = VehicleService.getVehicles();
+    }
+
+
+</script>
+</body>
+</html>

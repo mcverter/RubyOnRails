@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul>
+    <li>Interpolation {{ vm.story.name }}</li>
+    <li ng-bind="vm.story.name"> </li>
+</ul>
+<button
+    ng-click="vm.log('click')"
+    ng-blur="vm.log('blur')">
+    OK </button>
+
+<input ng-model="vm.story.name" />
+
+</body>
+</html>

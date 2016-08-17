@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul>
+    <li *ngFor="#vehicle of vehicles">
+        {{vehicle.name}}
+    </li>
+</ul>
+<div *ngIf="vehicles.length">
+    <h3> You have {{vehicles.length}}</h3>
+</div>
+
+
+</body>
+</html>
