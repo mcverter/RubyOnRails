@@ -30,11 +30,96 @@ export class CharacterComponent implements CanDeactivate, OnDestroy, OnInit {
     cancel(showToast=true) {
         this.editCharacter = this._entityService.clone(this.character);
         if (showToast) {
-            this._toastService.activate(`Cancelled changes to ${this.character.name}`);
+            this._toastService.activate(`Cancelled changes to c`);
+        }
+    }
+    delete() {
+        let msg = `Do you want to delete ${this.character.name}?`
+        this._modalService.activate(msg).then (responseOK => {
+            if (responseOK) {
+                this.cancel(false);
+                this._characterService.deleteCharacter(this.character)
+                    .subscribe(() => {
+                        this._toastService.activate(`Deleted ${this.character.name}`);
+                        this._gotoCharacters();
+                    })
+
+            }
+        })
+    }
+
+    isAddMode() {
+        let id = +this._routeParams.get('id');
+        return isNaN(id);
+    }
+
+    ngOnDestroy() {
+        this._dbResetSubscription.unsubscribe();
+    }
+
+    ngOnInit(){
+        componentHandler.upgradeDom();
+        this._getCharacter();
+        this._dbResetSubscription = this._characterService.onDbReset
+            .subscribe(() => this._getCharacter());
+    }
+
+
+    routerCanDeactivate(next: ComponentInstruction, prev: ComponentInstruction) {
+        return ! this.character ||
+                ! this._isDirty() ||
+                this._modalService.activate();
+    }
+
+    save() {
+        let character = this.character = this._entityService.merge(this.character, this.editCharacter);
+        if(character.id === null) {
+            this._characterService.addCharacter(character)
+                .subscribe(char => {
+                    this._setEditCharacter(char);
+                    this._toastService.activate(`successfully added ${char.name}`);
+                    this._gotoCharacters()
+                });
+            return;
+        }
+        this._characterService.updateCharacter(character)
+            .subscribe(() =>this._toastService.activate(`successfully added ${character.name}`))
+    }
+
+    private _setEditCharacter(character: Character) {
+        if (character) {
+            this.character = character;
+            this.editCharacter = this._entityService.clone(this.character);
+        } else {
+            this._gotoCharacters();
         }
     }
 
-    delete() {
-        let msg = ``
+    private _isDirty() {
+        return this._entityService.propertiesDiffer(this.character, this.editCharacter);
     }
+
+    private _getCharacter(){
+        let id = +this._routeParams.get('id');
+        if (id===0) return;
+        if (this.isAddMode()) {
+            this.character = <Character>{name: '', side: 'dark'};
+            this.editCharacter = this._entityService.clone(this.character);
+            return;
+        }
+        this._characterService.getCharacter(id)
+            .subscribe(character => this._setEditCharacter(character));
+    }
+
+    private _gotoCharacters() {
+        let id = this.character ? this.character.id : null;
+        let route = ['Characters', {id: id}];
+        this._router.navigate(route);
+
+    }
+
+    private _handleServiceError(op: string, err: any) {
+        console.error(`${op} error: ${err.message || err}`);
+    }
+
 }
