@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/underscore-min.js"></script>
+<script src="lib/backbone-min.js"></script>
+<script>
+    var Todo = Backbone.Model.extend({
+        initialize: function() {
+            console.log('initialized');
+            this.on('change', function(){
+                console.log('values have changed')
+            })
+
+        },
+        defaults:  {
+            title: 'blop',
+            completed: false
+        }
+    });
+
+    var todo1 = new Todo()
+
+
+    var todo2 = new Todo({
+        title : 'blah',
+        completed: true
+    })
+
+    var todo3 = new Todo();
+
+    todo3.set('title', 'this will trigger the listender')
+    todo3.set ({
+        title: 'changing multiple values triggers one change event',
+        completed: false
+    });
+
+    console.log(todo1.get('title'));
+    console.log(todo2.get('title'));
+
+    console.log(todo2.toJSON())
+
+    todo1.set ({
+        title: 'bleek',
+        completed: false
+    })
+
+    var Person = new Backbone.Model();
+    Person.on("change:name", function(){
+        console.log('name changed');
+    });
+
+    Person.set({name: 'Jeremy'}, {silent: true});
+    console.log(Person.hasChanged("name"));
+    console.log(Person.hasChanged(null));
+
+    var TodoMoo = Backbone.Model.extend({
+        initialize: function() {
+            console.log('initialized');
+            this.on('change:title', function(){
+                console.log('values have changed')
+            })
+            this.on("invalid", function(model, error){
+                console.log(error);
+            })
+
+        },
+        defaults:  {
+            title: 'blop',
+            completed: false
+        },
+        validate: function(attrs) {
+            if (!attrs.title) {
+                return 'todo requires a title'
+            }
+            if (attrs.title === undefined) {
+                return "remember to add a title";
+            }
+        }
+    })
+
+    var todomoo1 = new TodoMoo();
+
+    todomoo1.set('title', 'check it');
+    todomoo1.setTitle('fish');
+
+    todomoo1.set('completed', true)
+    todomoo1.unset('name', {validate: true});
+
+</script>
+
+</body>
+</html>
