@@ -20,7 +20,7 @@ var app;
             ProductListCtrl.$inject = ["dataAccessService"];
             return ProductListCtrl;
         })();
-        angular.module("productManagement")
-            .controller("ProductListCtrl", ProductListCtrl);
+        angular.module("productManagement").controller("ProductListCtrl", ProductListCtrl);
     })(productList = app.productList || (app.productList = {}));
 })(app || (app = {}));
+//# sourceMappingURL=productListCtrl.js.map

@@ -4,16 +4,14 @@ var app;
     main.config(routeConfig);
     routeConfig.$inject = ["$routeProvider"];
     function routeConfig($routeProvider) {
-        $routeProvider
-            .when("/productList", {
+        $routeProvider.when("/productList", {
             templateUrl: "/app/products/productListView.html",
             controller: "ProductListCtrl as vm"
-        })
-            .when("/productDetail/:productId", {
+        }).when("/productDetail/:productId", {
             templateUrl: "/app/products/productDetailView.html",
             controller: "ProductDetailCtrl as vm"
-        })
-            .otherwise("/productList");
+        }).otherwise("/productList");
     }
 })(app || (app = {}));
 ;
+//# sourceMappingURL=app.js.map

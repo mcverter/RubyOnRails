@@ -1,11 +1,15 @@
 *class
 *~
 \#*
+LICENSE
+README.md
 .idea
 /DesignPatterns/Factory/DB_java/Factory_DerekB/nbproject/private/
 /DesignPatterns/Factory/DB_java/Factory_DB/nbproject/private/
 *pyc
 .metadata/*
+*pdf
+*map
 node_modules
 *xml
 *iml

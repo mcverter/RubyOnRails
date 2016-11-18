@@ -2,8 +2,7 @@ var app;
 (function (app) {
     var common;
     (function (common) {
-        var mockResource = angular
-            .module("productResourceMock", ["ngMockE2E"]);
+        var mockResource = angular.module("productResourceMock", ["ngMockE2E"]);
         mockResource.run(mockRun);
         mockRun.$inject = ["$httpBackend"];
         function mockRun($httpBackend) {
@@ -46,3 +45,4 @@ var app;
         }
     })(common = app.common || (app.common = {}));
 })(app || (app = {}));
+//# sourceMappingURL=productResourceMock.js.map

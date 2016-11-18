@@ -17,7 +17,7 @@ var app;
             ProductDetailCtrl.$inject = ["$routeParams", "dataAccessService"];
             return ProductDetailCtrl;
         })();
-        angular.module("productManagement")
-            .controller("ProductDetailCtrl", ProductDetailCtrl);
+        angular.module("productManagement").controller("ProductDetailCtrl", ProductDetailCtrl);
     })(productDetail = app.productDetail || (app.productDetail = {}));
 })(app || (app = {}));
+//# sourceMappingURL=productDetailCtrl.js.map
