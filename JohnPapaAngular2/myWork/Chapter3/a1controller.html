@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular 1 Using Controllers </title>
+    <script data-require="angular.js@1.4.x" src="lib/angular1/angular1.js" data-semver="1.4.8"></script>
+</head>
+<body ng-controller="StoryController as vm">
+<h3>{{ vm.story.name }}</h3>
+<h3 ng-bind="vm.story.name"></h3>
+</body>
+<script>
+    (function(){
+        angular
+                .module('app')
+                .controller('StoryController', StoryController);
+
+        function StoryController() {
+            var vm = this;
+            vm.story = {id: 100, name: 'The Force Awakens'};
+        }
+    })();
+</script>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular 2 Component</title>
+    <script src="lib/angular2/angular2-polyfills.js"></script>
+    <script src="lib/angular2/system.js"></script>
+    <script src="lib/angular2/typescript.js"></script>
+    <script src="lib/angular2/Rx.js"></script>
+    <script src="lib/angular2/angular2.dev.js"></script>
+    <script src="lib/angular2/router.dev.js"></script>
+    <script src="lib/angular2/http.dev.js"></script>
+
+</head>
+<body>
+<my-story></my-story>
+</body>
+<script>
+    import { Component } from 'angular2/core';
+
+    @Component ({
+        selector: 'my-story',
+        template: '<h3>{{story.name}}</h3>'
+    })
+
+    export class StoryComponent {
+        story = {id: 100, name: 'The Force Awakens'};
+    }
+</script>
+</html>
