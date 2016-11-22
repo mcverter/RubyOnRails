@@ -1377,7 +1377,6 @@
 "drupal-coding-standards", 2
 "drupal7-foundation", 46
 "drush-coding", 13
-"drush-introduction
 "durandal-js-get-started", 47
 "dxcr", 64
 "dynamic-burning-logo-cinema-4d-turbulencefd-1912", 13
@@ -3711,7 +3710,6 @@
 "sap-crystal-reports-fundamentals", 31
 "sap-getting-started", 28
 "sap-integration-dotnet-developers", 81
-"scala-for-java-developers
 "scala-getting-started", 27
 "scalable-aws-api-gateway", 44
 "scalable-modular-architecture-for-css", 33
