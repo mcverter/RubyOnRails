@@ -1,0 +1,1255 @@
+"A Beginner's Guide to the Microsoft Web Platform", 41
+"A Better CSS - LESS and SASS", 42
+"A Functional Architecture with F#", 91
+"A Tour of Objective-C for .NET Developers", 12
+"ABAP Workbench - The Big Picture", 53
+"ADFS2 and WIF 3.5", 63
+"ADO.NET by Example", 55
+"ASP.NET 3.5 Fundamentals", 91
+"ASP.NET Ajax Advanced Topics", 39
+"ASP.NET Ajax Fundamentals", 56
+"ASP.NET Core 1.0 Fundamentals", 70
+"ASP.NET MVC Scaffolding", 23
+"ASP.NET XML Reporting by Example", 3
+"AWS Developer - Getting Started", 69
+"AWS Developer Fundamentals", 89
+"AWS Developer Fundamentals _ Pluralsight_files", 30
+"Accelerated C# Fundamentals", 115
+"Accelerated C# Fundamentals _ Pluralsight_files", 30
+"Access Your Own Low Cost SAP Development System", 31
+"Adding Search Abilities to Your Apps with Azure Search", 70
+"Advanced JavaScript", 58
+"Advanced Machine Learning with ENCOG", 91
+"Advanced Machine Learning with ENCOG - Part 2", 79
+"Advanced Machine Learning with ENCOG - Part 2 _ Pluralsight_files", 30
+"Advanced Machine Learning with ENCOG _ Pluralsight_files", 30
+"Advanced Malware Analysis - Combating Exploit Kits", 45
+"Advanced Techniques in JavaScript and jQuery", 48
+"Advanced Theming For Drupal 7", 18
+"Advanced Windows Debugging - Part 1", 38
+"Advanced Windows PowerShell Desired State Configuration", 42
+"Agile Requirements Process - From Idea to Minimum Viable Product", 41
+"Agile Requirements Process_ From Idea to Minimum Viable Product _ Pluralsight_files", 30
+"Agile Team Practices with Scrum", 58
+"Agile for One", 36
+"Agile for One _ Pluralsight_files", 33
+"Agile_Design_Patterns", 27
+"Akka.NET Persistence Fundamentals", 34
+"Algorithms and Data Structures - Part 1", 60
+"Amazon Web Services Databases in Depth", 116
+"Amazon Web Services Databases in Depth _ Pluralsight_files", 30
+"An Introduction to Algorithmics", 30
+"An Introduction to Design", 59
+"Android 4.0 New Features", 46
+"Android Animations", 23
+"Android Async Programming and Services", 41
+"Android Beginner Series - Just Enough Java", 87
+"Android Beginner Series - Understanding Android", 89
+"Android Custom Components", 26
+"Android Dreams, Widgets and Notifications - Life Outside Your App", 50
+"Android Fundamentals - Activities", 36
+"Android Fundamentals - Data Binding", 31
+"Android Fundamentals - Fragments", 51
+"Android Fundamentals - SharedPreferences", 21
+"Android Layout Fundamentals", 23
+"Android Location-Based Apps", 49
+"Android Material Design - Implementing Tabs", 14
+"Android Material Design with Design Support Library", 25
+"Android Photo and Video Programming", 67
+"Android Processes and Threads", 20
+"Android Programming with Intents", 45
+"Android for .NET Developers - 1 Getting Started", 58
+"Android for .NET Developers - 2 Building Apps With Android Studio", 53
+"Android for .NET Developers - 3 Adopting The Android Mindset", 56
+"Android for .NET Developers - 4 Understanding The Android Platform", 52
+"AngryNerds", 3
+"Angular", 2
+"Angular - The Big Picture", 38
+"Angular 2 - First Look", 74
+"Angular 2 - Getting Started", 81
+"Angular Best Practices", 65
+"Angular Front to Back with Web API", 65
+"Angular Fundamentals", 100
+"Angular Material Fundamentals", 39
+"Angular Routing In-depth", 36
+"Angular with TypeScript", 60
+"AngularDirectives", 2
+"AngularJS - Get Started", 45
+"AngularJS In-Depth", 42
+"AngularJS Patterns - Clean Code", 89
+"AngularJS Security Fundamentals", 39
+"AngularJS Services In-depth", 54
+"AngularJS Unit Testing in-depth, Using ngMock", 58
+"AngularUI Fundamentals", 67
+"AngularUI_Pluralsight", 14
+"Angular_ The Big Picture _ Pluralsight_files", 30
+"Animating AngularJS Applications", 36
+"Apache Ant Fundamentals", 47
+"Apache Spark Fundamentals", 58
+"Apex Academy - Fundamental Salesforce Coding Techniques", 54
+"Apex Academy - The Power of SOQL", 56
+"Application Building Patterns with Backbone.js", 33
+"Applying Concurrency and Multi-threading to Common Java Patterns", 61
+"Aspect Oriented Programming in .NET", 27
+"Async and Parallel Programming - Application Design", 179
+"Auditing AWS Environments for Security and Best Practices", 60
+"Authenticating Your Angular SPA with ASP.NET Web API and Auth0", 20
+"Automated Web Testing with Selenium", 79
+"Automating UI Tests for WPF Applications", 64
+"Azure AD for Developers", 82
+"Azure Hybrid Connections - First Look", 39
+"Azure SQL Data Warehouse - First Look", 36
+"Azure Websites and WebJobs", 47
+"BACKTRACK", 41
+"Babel - Get Started", 39
+"Backbone.JS In-Depth and Intro to Testing with Mocha and Sinon", 42
+"Backbone.js Fundamentals", 67
+"Backbone.js Persistence", 28
+"Basics of Programming with JavaScript", 20
+"Bean Validation 1.1", 78
+"Become a Full-stack .NET Developer", 70
+"Become a Full-stack .NET Developer - Advanced Topics", 93
+"Become a Full-stack .NET Developer - Architecture and Testing", 89
+"Becoming a .NET Developer", 74
+"Becoming an Outlier - Reprogramming the Developer Mind", 49
+"Beginning Automated Testing of Xamarin Applications", 19
+"Beginning Data Visualization with R", 48
+"Beginning HTML 5 Game Development With Quintus", 9
+"Beginning HTML5 Apps For Firefox OS", 24
+"Beginning Lua", 84
+"Beginning Mobile Development with Xamarin", 42
+"Beginning PowerShell Scripting for Developers", 45
+"Beginning iOS 7 Development", 72
+"Benchmarking with httperf", 10
+"Better Software Through Measurement", 45
+"Better Unit Test Assertions with Shouldly", 28
+"Better User Experiences and More Robust Applications with Polly", 26
+"Big Data & Reporting with MongoDB", 121
+"Big Data - The Big Picture", 37
+"Big Data Analytics with Tableau", 55
+"Big Data on Amazon Web Services", 54
+"Big Scrum", 34
+"BizTalk 2006 Business Process Management", 85
+"BizTalk 2006 Fundamentals", 100
+"BizTalk 2009 Business Process Management", 72
+"BizTalk 2009 Fundamentals", 64
+"BizTalk Server 2006 R2 Fundamentals", 49
+"BizTalk Server by Example", 13
+"Breaking Down Cloud Security", 7
+"Build Cross Platform React Native Apps with Exponent and Redux", 33
+"Build Laravel App Larabook From Scratch [ 1 - 29 ] - 19-08-2014", 30
+"Build Process, Workflows and Tooling With Grunt.js and Beyond", 46
+"Build Process, Workflows and Tooling With Grunt.js and Beyond _ Pluralsight_files", 30
+"Build Your Career with Michael Lopp", 17
+"Build an HTML Helper Library for ASP.NET MVC 5", 62
+"Build iOS Apps with React Native", 58
+"Build iOS Apps with React Native _ Pluralsight_files", 30
+"Building ASP.NET MVC Apps with EF Code First, HTML5, and jQuery", 15
+"Building Angular and Node.js Apps with the MEAN Stack", 76
+"Building Angular and Node.js Apps with the MEAN Stack _ Pluralsight_files", 30
+"Building Applications with Aurelia", 38
+"Building Applications with React and Flux", 104
+"Building Better Go Web Apps with the Gorilla Toolkit", 75
+"Building Concurrent Applications with the Actor Model in Akka.NET", 59
+"Building Cross Platform Native Mobile Applications with NativeScript", 81
+"Building Data-driven React Applications with Relay, GraphQL, and Flux", 36
+"Building Distributed Applications with Go", 52
+"Building Distributed Systems with Akka.NET Clustering", 26
+"Building F# Type Providers", 36
+"Building HTML5 and JavaScript Apps with MVVM and Knockout", 84
+"Building Highly Scalable Web Applications in Azure", 57
+"Building Line of Business Applications with Visual Studio LightSwitch 2015", 24
+"Building Native Mobile Apps for SAP Business Warehouse - Part 2", 34
+"Building PHP Applications with Zend Framework 2", 77
+"Building Reactive Concurrent WPF Applications with Akka.NET", 27
+"Building Real-time Applications with Socket.io", 32
+"Building Realtime Angular Controls", 66
+"Building Ruby Gems", 18
+"Building Scalable APIs with GraphQL", 34
+"Building Software That Lasts - A Guide to Maintainable Software", 33
+"Building Stronger Front-end Practices", 42
+"Building Strongly-typed AngularJS Apps with ASP.NET MVC 5", 72
+"Building Web Applications with hapi", 44
+"Building Web Apps With Node.js", 29
+"Building Windows 8 Apps with C++ and XAML", 51
+"Building Your First Xamarin.Android App from Start to Store", 51
+"Building Your First Xamarin.iOS App from Start to Store", 49
+"Building a Full-Stack App with React and Express", 49
+"Building a Full-Stack App with React and Express _ Pluralsight_files", 30
+"Building a Real-time App with React, Flux, Webpack, and Firebase", 41
+"Building a Realtime Web Application with Meteor.js", 87
+"Building a Realtime Web Application with Meteor.js _ Pluralsight_files", 30
+"Building a Site with AngularJS and PHP", 1
+"Building a Web App with ASP.NET Core, MVC 6, EF Core, and Angular", 113
+"Building an MVVM-based Architecture for Xamarin Mobile Apps", 71
+"Building and Debugging the Container - Mobile Documentation - MHE Confluence_files", 28
+"Building, Testing, and Deploying Professional Puppet Modules", 68
+"Business Readable Automated Tests with SpecFlow 2.0", 63
+"C Programming Language Fundamentals", 45
+"C# 4.0 New Features", 29
+"C# Best Practices - Collections and Generics", 55
+"C# Best Practices - Improving on the Basics", 71
+"C# Collections Fundamentals", 110
+"C# Concurrent Collections", 79
+"C# Design Strategies", 81
+"C# Equality and Comparisons", 105
+"C# Events, Delegates and Lambdas", 45
+"C# Extension Methods", 54
+"C# From Scratch", 46
+"C# From Scratch - Part 2", 31
+"C# Fundamentals with C# 5.0", 64
+"C# Fundamentals with Visual Studio 2015", 53
+"C# Generics", 61
+"C# Interfaces", 39
+"C# Language Internals - Part 1", 91
+"C# Language Internals - Part 2", 65
+"C# Programming Paradigms", 51
+"C# Programming Paradigms _ Pluralsight_files", 30
+"C# Tips and Traps", 59
+"C# Tips and Traps 2", 36
+"C# for Visual Basic .NET Developers", 69
+"C++ Fundamentals", 96
+"C++ Fundamentals - Part 2", 47
+"C++11 Language Features", 70
+"CBTSecurity", 12
+"CBTUbuntu", 21
+"CISSP® - Asset Security", 41
+"CISSP® - Communications and Network Security", 107
+"CISSP® - Security Engineering", 93
+"CISSP® - Security and Risk Management", 121
+"CSS", 2
+"CSS 3 From Scratch", 31
+"CSS3", 85
+"CSS3 In-Depth", 44
+"CSharpTraining", 63
+"Capistrano 2", 11
+"Career Strategies and Opportunities for Salesforce Platform Developers", 25
+"Career and Survival Strategies for Software Developers", 52
+"Cassandra for Developers", 39
+"Cassandra for Developers _ Pluralsight_files", 30
+"Check Point Certified Security Administrator - Backup and Updating", 36
+"Check Point Certified Security Administrator - Install & Deploy", 43
+"Choosing a JavaScript Framework", 41
+"Cisco CCNA Security - AAA and IP Security", 70
+"Cisco CCNA Security - Firewalls and VPNs", 60
+"Cisco CCNA Security - Introduction to Network Security", 39
+"Clojure", 33
+"Clojure Concurrency", 55
+"Clojure Fundamentals - Part 1", 125
+"Clojure Fundamentals - Part 1 _ Pluralsight_files", 30
+"Cloud Business Intelligence - The Big Picture", 30
+"Cloud Computing - The Big Picture", 22
+"Cloud Foundry for Developers", 63
+"Cloud Oriented Programming", 58
+"Coding Dojo - Test Driven Development", 40
+"Coding for Views", 2
+"CoffeeScript Fundamentals", 38
+"CompTIA Mobility+ Part 1 - Over-the-Air and Network Infrastructure", 64
+"CompTIA Mobility+ Part 2 - Security", 51
+"CompTIA Security+ (SY0-401) Access Control and Identity Management", 57
+"CompTIA Security+ (SY0-401) Application, Data, and Host Security", 44
+"CompTIA Security+ (SY0-401) Application, Data, and Host Security _ Pluralsight_files", 30
+"CompTIA Security+ (SY0-401) Compliance and Operational Security", 122
+"CompTIA Security+ (SY0-401) Cryptography", 48
+"CompTIA Security+ (SY0-401) Network Security", 54
+"CompTIA Security+ (SY0-401) Threats and Vulnerabilities", 105
+"CompTIA Storage+ Part 1 - Storage Fundamentals", 12
+"CompTIA Storage+ Part 3 - Data Protection & Storage", 59
+"Concurrent Programming with Go", 37
+"Confident Coding - A Journey to Automated Testing in ASP.NET MVC", 34
+"Configuring Kerberos for SSRS", 46
+"Consolidating MVC Views Using Single Page Techniques", 58
+"Consuming Web Services and Using Local Storage on iOS", 45
+"Continuous Integration and Deployment for AngularJS and Node.js", 38
+"Continuous Integration and Deployment for AngularJS and Node.js _ Pluralsight_files", 30
+"Continuous Integration with Jenkins - Tutorial_files", 71
+"Continuous Integration with psake and TeamCity - Getting Started", 37
+"Core Data Fundamentals", 47
+"CouchDB with Rails", 10
+"Creating Custom Controls in iOS", 22
+"Creating Geospatial Maps with MapServer and GDAL", 35
+"Creating JavaScript Modules with Browserify", 30
+"Creating JavaScript Modules with Browserify _ Pluralsight_files", 30
+"Creating N-Tier Applications in C#, Part 1", 30
+"Creating N-Tier Applications in C#, Part 2", 33
+"Creating Well-tested Applications in Go", 72
+"Creating Your First Spring Boot Application", 37
+"Crisis Communication and Technology - Communicating with Colleagues", 44
+"Data Access in Node.js Using Knex", 23
+"Data Analytics - Hands On", 103
+"Data Mining Algorithms in SSAS, Excel, and R", 84
+"Data Visualization for Developers", 31
+"Data Visualization for Developers _ Pluralsight_files", 30
+"Database Delivery Best Practices", 59
+"Debugging the Web with FireBug, WebDeveloper, and Fiddler", 44
+"Design Patterns On-Ramp", 49
+"Design Patterns On-Ramp _ Pluralsight_files", 30
+"Design Patterns in C++ - Behavioral - Chain of Responsibility to Memento", 38
+"Design Patterns in C++ - Creational", 46
+"Design Patterns in Java - Behavioral", 134
+"Design Patterns in Java - Creational", 65
+"Design Patterns in Java - Structural", 93
+"Design to Development", 28
+"Design to Development _ Pluralsight_files", 31
+"DesignPatterns", 15
+"Designing Fluent APIs in C#", 43
+"Designing a Killer Job Search Strategy", 81
+"DevExpress CodeRush and Refactor!", 41
+"Developer to Architect", 38
+"Developer to Architect _ Pluralsight_files", 30
+"Developer's T-SQL Playbook", 52
+"Developing SharePoint-hosted Add-ins (Apps)", 1
+"Developing a Real World Application With Kendo UI", 33
+"Developing with Office UI Fabric", 57
+"Digital Forensics Tools in Kali Linux - Imaging and Hashing", 35
+"Disaster Recovery for CompTIA Server+ (SK0-004)", 18
+"Django Fundamentals", 96
+"Django_HACKED", 14
+"Docker for Web Developers", 65
+"Dojo Fundamentals", 58
+"Domain-Driven Design in Practice", 104
+"Domain-Driven Design in Practice _ Pluralsight_files", 30
+"Drupal Coding Standards", 3
+"Dynamic C# Fundamentals", 54
+"Egghead.io - AngularJS", 24
+"Egghead.io Angular JS", 45
+"Elastic Scaling on Windows Azure", 44
+"Electron Fundamentals", 34
+"Electron Playbook", 31
+"Ember", 5
+"Ember.js Fundamentals", 35
+"End User Security Awareness", 13
+"Enterprise Library Caching Application Block", 23
+"Enterprise Library Security and Cryptography Application Blocks", 24
+"Entity Framework 4.1 - Code First", 57
+"Entity Framework 4.1 - DbContext Data Access", 30
+"Entity Framework Migrations for Large Teams", 44
+"Essential Knockout and JavaScript Tips", 83
+"Ethical Hacking - Buffer Overflow", 33
+"Ethical Hacking - Cloud Computing", 42
+"Ethical Hacking - Cryptography", 18
+"Ethical Hacking - Denial of Service", 42
+"Ethical Hacking - Enumeration", 42
+"Ethical Hacking - Evading IDS, Firewalls, and Honeypots", 40
+"Ethical Hacking - Hacking Mobile Platforms", 53
+"Ethical Hacking - Hacking Web Applications", 38
+"Ethical Hacking - Hacking Web Servers", 36
+"Ethical Hacking - Hacking Wireless Networks", 43
+"Ethical Hacking - Malware Threats", 39
+"Ethical Hacking - Penetration Testing", 79
+"Ethical Hacking - Sniffing", 39
+"Ethical Hacking - Social Engineering", 54
+"Ethical Hacking - System Hacking", 42
+"Exam Review for CompTIA Linux+ (LX0-104) and LPI LPIC-1 (102-400)", 128
+"Exploratory Data Analysis with R", 44
+"Exploring C# 6 with Jon Skeet", 46
+"Expression Blend for Developers", 37
+"Extending IIS 7.5 with Modules and Handlers", 38
+"F# Functional Data Structures", 76
+"F# Jumpstart", 48
+"File Storage Using AWS S3 and Glacier - Developer Deep Dive", 37
+"Firewalls for CCNA Security (210-260) IINS", 49
+"First Look - C++ Core Guidelines and the Guideline Support Library", 37
+"First Look - Native Docker Clustering", 26
+"Fixing Common JavaScript Bugs", 67
+"Fixing Common jQuery Bugs", 56
+"Force.com Design Patterns - Part 1", 54
+"Force.com Design Patterns - Part 2", 54
+"Force.com Platform - The Big Picture", 40
+"Force.com and Apex Fundamentals for Developers", 56
+"Force.com for .NET Developers", 31
+"Force.com for Developers", 119
+"Formatting With PowerShell", 34
+"From Collections to Streams in Java 8 Using Lambda Expressions", 114
+"Front End Web Development - Get Started", 75
+"Front End Web Development Career Kickstart", 33
+"Front-End First - Testing and Prototyping JavaScript Apps", 68
+"Front-End Web Development Quick Start With HTML5, CSS, and JavaScript", 44
+"Full Stack Node.js", 21
+"Full Stack Web Development with Python (WEB2PY)", 95
+"Functional Programming With Java", 64
+"Functional Programming with C#", 44
+"Functional Programming with Clojure", 16
+"Fundamentals of Azure Cloud Services and Storage", 26
+"Fundamentals of Building Office Add-ins with Office JavaScript APIs", 42
+"Game Programming with Python and PyGame", 61
+"GameSalad Fundamentals", 62
+"Gathering Good Requirements for Developers", 69
+"Generating HTML5 Layouts Using Photoshop", 27
+"Generating Multiple Income Streams", 35
+"Generics in VB.NET", 25
+"Get Involved!", 31
+"Get Started With HTML5 Boilerplate", 26
+"Getting Started With Java EE on WebSphere® Application Server", 43
+"Getting Started With Jenkins Continuous Integration", 46
+"Getting Started With Ubuntu", 81
+"Getting Started With the Mapbox JavaScript API", 37
+"Getting Started in Podcasting", 71
+"Getting Started with ASP.NET MVC, ServiceStack and Bootstrap", 23
+"Getting Started with Android Material Design", 39
+"Getting Started with Asynchronous Programming in .NET", 22
+"Getting Started with Entity Framework 6", 50
+"Getting Started with JD Edwards EnterpriseOne Business Services", 34
+"Getting Started with Microsoft Azure Shared Access Signatures", 9
+"Getting Started with Node.js Security with Express and Angular", 68
+"Getting Started with OpenCV in .NET", 28
+"Getting Started with OpenCV in .NET _ Pluralsight_files", 30
+"Getting Started with Polymer.js", 61
+"Getting Started with Power BI", 112
+"Getting Started with Raygun in .NET", 23
+"Getting Started with Spring Data REST", 42
+"Getting Your First WordPress Website Up in Under 24 Hours", 43
+"Ghost Blogging Engine - First Look", 49
+"Gin - A Website Application Framework for Go", 48
+"Git Fundamentals", 46
+"Git for Visual Studio Developers", 57
+"GitHub for Windows Developers", 38
+"Go - Getting Started", 35
+"Go Fundamentals", 73
+"Go_ Getting Started _ Pluralsight_files", 30
+"GoogleMaps", 8
+"Gradle Fundamentals", 34
+"Groovy Fundamentals", 45
+"HEROKU", 3
+"HTML Forms", 40
+"HTML Fundamentals", 44
+"HTML for the XAML Developer", 64
+"HTML5 Advanced Topics", 54
+"HTML5 Audio, Video, and WebRTC", 46
+"HTML5 Browser Caching", 12
+"HTML5 Canvas Fundamentals", 54
+"HTML5 From Scratch", 43
+"HTML5 Fundamentals", 66
+"HTML5 Line of Business Apps with Bootstrap, MVC4 and Web API", 98
+"HTML5 Offline Applications with Angular, IndexedDB and Bootstrap", 111
+"HTML5 Web Component Fundamentals", 79
+"HTML5 Web Storage, IndexedDB and File System", 137
+"HTTP Networking in iOS", 62
+"HTTP_2 Fundamentals", 49
+"Hack Your API First", 53
+"Hack Yourself First - How to go on the Cyber-Offense", 81
+"Hack-proofing Your ASP.NET Web Applications", 109
+"Hacking Ghost", 45
+"Hacking VS Code - Write Your First Extension for Visual Studio Code", 26
+"Hacking the User Experience _ UX for Developers", 48
+"Hadoop for .NET Developers", 52
+"Hands on Responsive Design Using a CSS Preprocessor", 32
+"Hands on with Python Jinja Templating", 16
+"Hands-on Windows Phone 7 Development", 60
+"Hardcore Functional Programming in JavaScript", 96
+"Hardcore Functional Programming in JavaScript _ Pluralsight_files", 30
+"Haskell Fundamentals Part 1", 65
+"High Performance PHP", 27
+"High-performance Computing in C++", 43
+"How Git Works", 33
+"How to Have a Better Career in Software", 35
+"How to Start and Run A Consulting Business", 75
+"How to Stop Man-in-the-Middle and Downgrade Attacks in Your Apps", 24
+"IBM WebSphere Portal and WCM 8.5 Fundamentals", 84
+"IIS for Developers", 34
+"Idiomatic Ruby", 20
+"Implementing Logging and Dependency Injection in Akka.NET", 27
+"Implementing Microsoft PowerShell Just Enough Administration (JEA)", 52
+"Implementing Proactive Windows Security", 29
+"Importing and Exporting Oracle Data for Developers", 60
+"Improving Message Throughput in Akka.NET", 28
+"Improving User Interaction with the Android ActionBar", 40
+"Improving User Interface Design with Android Fragments", 49
+"InDepth Knockout Validation", 40
+"Increase Productivity - Add a Dev Console to Your App with JavaScript", 25
+"Information Systems Auditor - Acquisition and Development", 25
+"Information Systems Auditor - Governance and Management", 33
+"Information Systems Auditor - Operations, Maintenance, and Service", 25
+"Information Systems Auditor - Protection of Information Assets", 39
+"Information Systems Auditor - The Process of Auditing", 18
+"Installing and Configuring Apache Web Server", 26
+"Installing and Configuring Apache Web Server _ Pluralsight_files", 30
+"Integrating BizTalk Server with Windows Azure AppFabric", 26
+"Integrating Docker with DevOps Automated Workflows", 25
+"Integrating Node Applications with GitHub", 45
+"Integrating Payments with Ruby on Rails", 21
+"Integration Services Fundamentals", 160
+"Internationalization in WordPress", 24
+"Internationalization with AngularJS and ASP.NET", 37
+"Intro to Fields for Drupal Site Builders", 14
+"Intro to Views for Drupal 7", 14
+"Introducing the Office UI Fabric", 24
+"Introduction To Building Web Applications With Dart", 104
+"Introduction To Hibernate", 16
+"Introduction To Kendo UI", 88
+"Introduction to ABAP Objects - Concepts & Class Builder", 21
+"Introduction to ASP.NET 4 WebForms", 91
+"Introduction to ASP.NET MVC 3", 54
+"Introduction to Ada 2012", 63
+"Introduction to Android Development", 71
+"Introduction to Android Development _ Pluralsight_files", 30
+"Introduction to Azure App Services", 42
+"Introduction to Azure DocumentDB", 73
+"Introduction to Bitcoin and Decentralized Technology", 44
+"Introduction to Browser Security Headers", 47
+"Introduction to CSS", 45
+"Introduction to CSS for Designers", 17
+"Introduction to Cisco ISE for CCNP Security (300-208) SISAS", 21
+"Introduction to D", 75
+"Introduction to F#", 70
+"Introduction to Game Development with Unity", 99
+"Introduction to Git", 10
+"Introduction to Grails", 74
+"Introduction to Graph Databases and Neo4j", 42
+"Introduction to Grunt", 36
+"Introduction to HTML5 and CSS3", 20
+"Introduction to Integration With Apache Camel", 78
+"Introduction to JavaScript & jQuery", 25
+"Introduction to Joomla!", 54
+"Introduction to Koa Javascript", 34
+"Introduction to Leadership and Management for Developers", 65
+"Introduction to MEAN.JS", 36
+"Introduction to MSBuild", 49
+"Introduction to Machine Learning with ENCOG 3", 88
+"Introduction to Microsoft Office Open XML", 44
+"Introduction to MongoDB", 117
+"Introduction to Mongoose for Node.js and MongoDB", 45
+"Introduction to Node.js", 53
+"Introduction to Objective-C", 31
+"Introduction to PHP MVC with CakePHP", 70
+"Introduction to PRISM", 84
+"Introduction to Penetration Testing Using Metasploit", 33
+"Introduction to PhoneGap", 46
+"Introduction to PowerShell", 26
+"Introduction to Presentation Design", 40
+"Introduction to Property-based Testing with F#", 52
+"Introduction to Qt - A C++ Cross Platform Application Framework", 19
+"Introduction to Ruby on Rails 3", 23
+"Introduction to Ruby on Rails 3 and 4", 114
+"Introduction to SQL", 56
+"Introduction to Testing in Java", 43
+"Introduction to Universal Windows Platform Development with XAML", 3
+"Introduction to Versioning Environments With Vagrant", 78
+"Introduction to Visual Studio 2010 - Part 1", 59
+"Introduction to Visual Studio 2010 - Part 2", 46
+"Introduction to Visual Studio LightSwitch 2011", 22
+"Introduction to Visual Studio Tools for Office", 54
+"Introduction to Web Development", 82
+"Introduction to WebMatrix", 56
+"Introduction to Windows Azure", 31
+"Introduction to Windows Azure Infrastructure as a Service", 61
+"Introduction to WordPress", 31
+"Introduction to WordPress Plugin Development", 30
+"Introduction to Xamarin.Forms", 71
+"Introduction to Xcode", 62
+"Introduction to iOS for .NET Developers", 141
+"Introduction to npm as a Build Tool", 46
+"Introduction to scriptcs", 38
+"Introduction to the Facebook Graph API", 35
+"Introduction to the Flask Microframework", 81
+"Introduction to the Java API for WebSockets", 28
+"Introduction to the Web Audio API", 55
+"Inversion of Control", 68
+"InversionControl", 11
+"Investing", 24
+"IronRuby by Example", 3
+"JIRA Fundamentals", 34
+"JS-Mobile", 3
+"JS.Next - ES6", 39
+"JS.Next_ ES6 _ Pluralsight_files", 31
+"JSFundamentalsOneTwo", 14
+"JSLibraries", 6
+"Java EE - The Big Picture", 20
+"Java EE 7 Fundamentals", 62
+"Java EE_ The Big Picture _ Pluralsight_files", 31
+"Java Fundamentals - Collections", 42
+"Java Fundamentals - Generics", 19
+"Java Fundamentals - The Java Language", 132
+"Java Fundamentals - The Java Language (1)", 28
+"Java Fundamentals, Part 1", 64
+"Java Fundamentals, Part 2", 59
+"Java Persistence API (JPA) 2.1", 70
+"Java Swing Development Using NetBeans", 37
+"Java Web Fundamentals", 34
+"JavaScript - Advanced Fundamentals to jQuery & Pure DOM Scripting", 72
+"JavaScript - Advanced Fundamentals to jQuery & Pure DOM Scripting (1)", 71
+"JavaScript - From Fundamentals to Functional JS", 53
+"JavaScript Best Practices", 38
+"JavaScript Build Automation With Gulp.js", 123
+"JavaScript Design Patterns", 34
+"JavaScript Design Patterns (1)", 30
+"JavaScript From Scratch", 39
+"JavaScript Fundamentals for ES6", 99
+"JavaScript Fundamentals for ES6 (1)", 86
+"JavaScript Fundamentals for ES6 _ Pluralsight_files", 31
+"JavaScript Module Fundamentals", 32
+"JavaScript Objects and Prototypes", 27
+"JavaScript Templating with Handlebars", 36
+"JavaScript the Good Parts", 30
+"JavaScript.Functions", 22
+"JavaScriptGoodParts", 8
+"JavaScript_ Advanced Fundamentals to jQuery & Pure DOM Scripting _ Pluralsight_files", 32
+"Javascript", 2
+"JavascriptGeneral", 2
+"JavascriptPatterns", 35
+"Jobs", 101
+"Kendo UI and AngularJS from Scratch", 25
+"Kinect Interaction with WPF and Beyond", 34
+"Knockout For the XAML Developer", 63
+"Knockout Fundamentals", 32
+"LINQ Architecture", 26
+"LINQ Fundamentals", 68
+"LINQ Fundamentals with C# 6.0", 1
+"Laracasts - Digging In", 9
+"Laravel", 14
+"Large Scale JavaScript on Client and Server", 47
+"Leadership - Getting Started", 31
+"Lean Software Development Fundamentals", 62
+"Learn How to Program with C++", 98
+"Learn Perl by Doing - Part 1", 14
+"Learn Perl by Doing - Part 2", 18
+"Learn Perl by Doing - Part 3", 22
+"Learn Perl by Doing - Part 4", 16
+"Learn by Building Redis with Ruby", 47
+"Learning How to Program with Scratch", 111
+"Learning MongoDB", 21
+"Learning Technology in the Information Age", 28
+"Learning To Program - Being A Better Programmer", 40
+"Learning To Program - Part 1 - Getting Started", 13
+"Learning To Program - Part 2 - Abstractions", 41
+"Learning to Build Apps with App Inventor", 97
+"Linux Network Programming", 33
+"Linux Systems Programming", 52
+"LinuxCBT – PostgreSQL Edition", 38
+"Lynda", 434
+"Lynda. Design Aesthetics for Web Design", 8
+"Lynda. Up and Running with AngularJS", 8
+"Lynda.com - CSS with LESS and SASS (Nov. 2012)", 8
+"Lynda.com - MVC Frameworks for Building PHP Web Applications", 12
+"Lynda.com - PHP with MySQL Collection (5 courses)", 5
+"Lynda.com.PHP.With.MySQL.Beyond.The.Basics.DVD", 21
+"Lynda.com.PostgreSQL.9.With.PHP.Essential.Training-iRONiSO", 5
+"LyndaJSEssential", 18
+"LyndaJSEvents", 8
+"LyndaPHPMVC", 19
+"MATLAB Fundamentals", 57
+"MEAN", 3
+"Making Sense of UX and Design in the Enterprise", 63
+"Making the Case for Unit Testing Database Code", 27
+"Managing Developers", 41
+"Managing Information Security Incidents (ISO_IEC 27002)", 30
+"Mastering C# 4.0", 102
+"Mastering Java Swing - Part 1", 26
+"Mastering Java Swing - Part 2", 20
+"Mastering Java Swing - Part 3", 33
+"Mastering Java Swing - Part 4", 17
+"Mastering React Testing with Jest", 54
+"Mastering Visual Studio 2012", 46
+"Mastering Visual Studio 2013", 40
+"Math For Programmers", 65
+"Maven Fundamentals", 61
+"Measuring .NET Performance", 40
+"Meet CoffeeScript", 13
+"Meet Emacs", 6
+"Meet EventMachine", 10
+"Meet PostgreSQL", 15
+"Meet Raphael.js", 15
+"Meet Sinatra", 12
+"Meeting Web Accessibility Guidelines (Section 508_ WCAG 2.0)", 25
+"Metasploit Basics for Protecting SharePoint", 31
+"Microsoft Azure - The Big Picture", 12
+"Microsoft Azure API Management Essentials", 41
+"Microsoft Edge for Developers", 33
+"Microsoft MTA - Security Fundamentals", 129
+"MiscDjango", 11
+"Modern Asynchronous JavaScript", 109
+"Modern Software Architecture - Domain Models, CQRS, and Event Sourcing", 56
+"Modern, Modular JavaScript with SystemJS and jspm", 109
+"Monetizing GameSalad Games with In-App Purchases", 42
+"MongoDB Administration", 46
+"MonoTouch", 73
+"More Effective LINQ", 87
+"More Expressive Testing in .NET with MSpec", 34
+"MySQL Backup and Recovery Fundamentals", 46
+"MySQL Continuous Database Delivery with Flyway", 71
+"MySQL Fundamentals", 76
+"MySQL Fundamentals Part 2", 88
+"MySQL Indexing for Performance", 41
+"MySQL Query Optimization and Performance Tuning", 45
+"MySQL Workbench Guided Tour", 62
+"NET Reactive Extensions Fundamentals 1.0", 104
+"NET Reflector by Example", 5
+"NET Regular Expressions", 53
+"NPM Playbook", 30
+"Network Penetration Testing Using Python and Kali Linux", 26
+"Network Security for CompTIA Network+ (N10-006)", 120
+"NoSQL - The Big Picture", 15
+"Node", 5
+"Node Application Patterns", 23
+"Node on Windows and Azure", 64
+"Node.js Testing Strategies", 29
+"Node.js Testing Strategies _ Pluralsight_files", 30
+"Node.js and the Internet of Things Using Intel Edison", 40
+"Node.js for .NET Developers", 40
+"OPS", 58
+"Object-Oriented Programming Fundamentals in C#", 66
+"Object-oriented PHP - Classical Inheritance Model", 36
+"Object-oriented PHP - Essential Constructs", 69
+"Object-oriented PHP_ Essential Constructs _ Pluralsight_files", 30
+"Object-oriented Programming in JavaScript - ES6", 52
+"Objective-C for Rubyists", 11
+"Occasionally Connected Windows Mobile Apps - Enterprise LOB", 55
+"Office 365 Development - Getting Started", 34
+"On Polyglot Programming", 10
+"One Size Does Not Fit All - Find the Job You Want", 30
+"One Size Does Not Fit All_ Find the Job You Want _ Pluralsight_files", 30
+"Optimizing SQL Queries in Oracle", 14
+"Oracle Database 12c - Installation and Upgrade", 67
+"Oracle Database 12c Disaster Recovery and Data Movement", 80
+"Oracle Database 12c Fundamentals", 88
+"Oracle Database 12c Performance Tuning and Optimization", 71
+"Oracle Developer Essentials - Data Types", 50
+"Oracle Developer Essentials - Tables and Indexes", 93
+"Oracle Developer Essentials - Views, Synonyms and Triggers", 43
+"Oracle PL_SQL - Transactions, Dynamic SQL & Debugging", 64
+"Oracle PL_SQL Fundamentals - Part 1", 77
+"Oracle PL_SQL Fundamentals - Part 2", 75
+"Oracle Performance Tuning for Developers", 105
+"Orchard Fundamentals", 68
+"Oreilly – Build a Strong AngularJS Foundation", 2
+"Overview of the TOGAF® 9.1 Enterprise Architecture Framework", 42
+"PHP - Get Started", 35
+"PHP Fundamentals", 235
+"PHP Web Application Security", 6
+"PLURALSIGHT.ANGULAR.BEST.PRACTICES-JGTiSO", 11
+"Page, Action, and Fragment Caching", 13
+"Patterns for Pragmatic Unit Testing", 45
+"Patterns of Cloud Integration", 76
+"Penetration Testing Automation Using Python and Kali Linux", 39
+"Penetration Testing and Ethical Hacking with Kali Linux", 97
+"Personal Productivity & Performance Tools for Windows Developers", 49
+"Photoshop - Advanced Tips and Tricks for Developers", 32
+"Photoshop - Tips and Tricks For Developers", 38
+"Phusion Passenger", 9
+"Picturing Architecture - UML (The Good Bits) and More", 15
+"Play By Play - Angular Internationalization with John Papa and Brian Clark", 27
+"Play By Play - Azure Deployment with Scott Hanselman", 10
+"Play By Play - Customizing Gradle with Plugins", 14
+"Play by Play - ASP.NET Core 1.0 on any OS with John Papa and Shayne Boyer", 12
+"Play by Play - Angular 2 Quick Start with John Papa and Ward Bell", 22
+"Play by Play - Angular 2_RxJS_HTTP and RESTful Services with John Papa and Dan Wahlin", 15
+"Play by Play - Angular Testing with John Papa and Ward Bell", 35
+"Play by Play - AngularJS Application Design with Scott Allen and Dan Wahlin", 25
+"Play by Play - App Development in Rails and Ember.js with Yehuda Katz", 24
+"Play by Play - Application Development with Shawn Wildermuth", 11
+"Play by Play - Building a Node Web API with Sam Artioli and John Papa", 27
+"Play by Play - Building a Python Code Stats Tool with Zed Shaw", 22
+"Play by Play - C# Q&A with Scott Allen and Jon Skeet", 8
+"Play by Play - Cross-Browser Compatibility with Peter-Paul Koch", 20
+"Play by Play - Database Tuning", 9
+"Play by Play - Deploying an Angular 2 App to Azure with Git with John Papa and Shayne Boyer", 1
+"Play by Play - Docker for Web Developers with John Papa and Dan Wahlin", 2
+"Play by Play - Ethical Hacking - Deconstructing the Hack", 25
+"Play by Play - Getting Started with Laravel 5 with Steven Maguire", 33
+"Play by Play - HTML, CSS, and JavaScript with Lea Verou", 20
+"Play by Play - Knockout Cart with Scott Hanselman", 6
+"Play by Play - Knockout Refactoring", 9
+"Play by Play - Learning AngularJS With Ken Cenerelli and John Papa", 39
+"Play by Play - MVP Scope Discovery with Steven Maguire", 15
+"Play by Play - Mobile UI Design with Neven Mrgan", 13
+"Play by Play - Modernizing C++ Code with Kate Gregory", 19
+"Play by Play - NodeJS with Tim Caswell", 13
+"Play by Play - Problem Solving in Ruby with Gary Bernhardt", 15
+"Play by Play - Rails App Development with Aaron Patterson", 18
+"Play by Play - React and Falcor with Brian Holt", 25
+"Play by Play - Refactoring with Katrina Owen", 9
+"Play by Play - Ruby API Design with Jim Weirich", 18
+"Play by Play - Ruby App Development with John Barnette", 30
+"Play by Play - Ruby Development in Vim with Tim Pope", 24
+"Play by Play - Ruby Programming with Aaron Patterson and Corey Haines", 11
+"Play by Play - Ruby Programming with Francis Hwang", 19
+"Play by Play - SQL Server Administration with Pinal Dave", 13
+"Play by Play - Social Engineering with Troy Hunt and Lars Klint", 11
+"Play by Play - TDD with Brad Wilson", 7
+"Play by Play - Test-Driven PHP with Chris Hartjes", 9
+"Play by Play - Triage with Ayende Rahien", 5
+"Play by Play - User Interface Design with Kyle Neath", 15
+"Play by Play - User Interface Sketching and Prototyping with Ryan Singer", 26
+"Play by Play - Website Security Review with Troy Hunt and Lars Klint", 26
+"Play by Play_ AngularJS Application Design with Scott Allen and Dan Wahlin _ Pluralsight_files", 32
+"Play by Play_ Getting Started with Laravel 5 with Steven Maguire _ Pluralsight_files", 32
+"Play by Play_ User Interface Sketching and Prototyping with Ryan Singer _ Pluralsight_files", 31
+"Play! 2 for Java", 62
+"Play! 2 for Scala", 60
+"PluralBootVideo", 75
+"PluralSight AngularUI Fundamentals", 2
+"Pluralsight - AngularJS Fundamentals [2013] JS-Dev", 90
+"Pluralsight - AngularJS In-Depth", 10
+"Pluralsight - Python Beyond The Basics", 15
+"Pluralsight AngularJS Fundamentals Exercise Files [OGNADROL]", 4
+"Pluralsight Originals - Design from Concept to Production", 23
+"Pluralsight_-_Django_Fundamentals_2014", 153
+"PostgreSQL - Advanced SQL Queries", 42
+"PostgreSQL - Advanced Server Programming", 48
+"PostgreSQL - Getting Started", 46
+"PostgreSQL - Introduction to SQL Queries", 57
+"PostgreSQL Playbook for Developer DBAs", 43
+"Postgres for .NET Developers", 45
+"PowerShell Cmdlet Development in C# - The Ins and Outs", 34
+"PowerShell Gotchas", 58
+"PowerShell and SQL Server", 40
+"Practical CouchDB for Developers", 86
+"Practical Cryptography in .NET", 75
+"Practical Data Modeling With C# and SQL Server", 41
+"Practical Design Patterns in JavaScript", 115
+"Practical HTML5", 53
+"Practical IoC With ASP.NET MVC 4", 22
+"Practical LINQ", 25
+"Practical MVVM", 38
+"Practical Mercurial", 18
+"Practical NDepend", 77
+"Practical PhoneGap", 65
+"Practical Reflection in .NET", 39
+"Practical iOS Concurrency", 30
+"Pragmatic Behavior-driven Design with .NET", 25
+"Preparing For a Job Interview", 98
+"Preparing for and Migrating Applications to Angular 2", 53
+"Prism Problems & Solutions - Loading Dependent Views", 17
+"Prism Problems & Solutions - Mastering TabControl", 47
+"Productivity for Programmers", 15
+"Programming PostgreSQL", 41
+"Project Management for Software Engineers", 64
+"Prototype.js Fundamentals", 20
+"Provable Code", 58
+"Provable Code _ Pluralsight_files", 30
+"Python Desktop Application Development", 27
+"Python Desktop Application Development - Part 2 - Design", 32
+"Python Fundamentals", 136
+"Python – Beyond the Basics", 149
+"Querying the Entity Framework", 26
+"Quick Guide to API Testing with HP's Unified Functional Testing", 12
+"R Programming Fundamentals", 148
+"REST Fundamentals", 60
+"REST Fundamentals _ Pluralsight_files", 31
+"REST for Rails 2", 10
+"RESTFul Services in Java using Jersey", 96
+"RESTful Web Services with Node.js and Express", 39
+"RESTful Web Services with Node.js and Express _ Pluralsight_files", 30
+"RESTful Web Services with PHP and Laravel", 67
+"RSpec 1", 23
+"RabbitMQ by Example", 43
+"Rails 2 from Scratch", 19
+"Rails 4.1 Performance Fundamentals", 77
+"Rails Rendering", 39
+"Rapid Application Prototyping with SharePoint and LightSwitch", 27
+"Rapid ES6 Training", 65
+"Rapid JavaScript Training", 85
+"Raspberry Pi for Developers", 37
+"ReSharper Fundamentals", 73
+"React", 4
+"React Fundamentals", 47
+"React Fundamentals _ Pluralsight_files", 30
+"React and Flux for Angular Developers", 25
+"React and Flux for Angular Developers _ Pluralsight_files", 30
+"React.js - Getting Started", 28
+"React.js on Rails - Building a Full Stack Web App", 34
+"Reactive Programming in Java 8 With RxJava", 40
+"ReactiveProgramming", 11
+"Real World Big Data in Azure", 108
+"Real World SOA - Analysis and Design", 1
+"Real World SOA - Design and Implementation", 89
+"Real World Scrum With Team Foundation Server 2013", 67
+"Real-Time Web with Node.js", 40
+"Real-Time Web with Node.js _ Pluralsight_files", 30
+"Real-World ASP.NET MVC3", 68
+"Real-time Web Applications", 21
+"Real-time Web Dashboards with Highcharts", 46
+"Redgate SQL Prompt", 7
+"Regular Expression Fundamentals", 21
+"Relational Database Design", 169
+"Relational Database Design _ Pluralsight_files", 30
+"RequireJS - JavaScript Dependency Injection and Module Loading", 44
+"Responsive HTML Email Design", 38
+"Responsive Typography", 42
+"Responsive Web Design", 29
+"Responsive Websites With Bootstrap 3", 46
+"Resumes and Self-marketing for Software Developers", 39
+"Revel - A Go Website Application Framework", 60
+"Ruby Beyond the Basics", 29
+"Ruby Fundamentals", 78
+"Ruby on Rails - A Jumpstart for .NET Developers", 45
+"Ruby on Rails 4 - Getting Started", 33
+"Ruby on Rails 4_ Getting Started _ Pluralsight_files", 30
+"Rust Fundamentals", 52
+"SAP Business Warehouse - The Big Picture", 23
+"SAP Business Warehouse Query Fundamentals", 23
+"SEO Fundamentals", 74
+"SOLID Principles of Object Oriented Design", 69
+"SQL Azure", 50
+"SQL Big Data Convergence - The Big Picture", 18
+"SQL Data Wrangling in Oracle - Table Data", 167
+"SQL Server - Building Simple Asynchronous Applications", 40
+"SQL Server - Consolidation Tactics and Best Practices", 59
+"SQL Server - TSQL", 79
+"SQL Server - Understanding and Using DBCC Commands", 45
+"SQL Server 2012 Database Administration (70-462) Part 1", 35
+"SQL Server 2012 Database Administration (70-462) Part 2", 38
+"SQL Server 2012 Database Administration (70-462) Part 3", 48
+"SQL Server Management Studio by Example", 4
+"SQL on Hadoop - Analyzing Big Data with Hive", 58
+"SSCP® - Access Controls", 29
+"SSCP® - Cryptography", 27
+"SSCP® - Incident Response and Recovery", 22
+"SSCP® - Introduction and the Exam Requirements", 6
+"SSCP® - Risk Identification, Monitoring, and Analysis", 24
+"SSCP® - Security Operations and Administration", 62
+"SSCP® - Systems and Application Security", 37
+"Scala - Getting Started", 28
+"Scala for Java Developers", 26
+"Scalable Dynamic Graphs & Charts Using AngularJS and SVG", 38
+"Scaling Agile for Enterprise - Daikibo", 45
+"Scaling Applications with Microservices and NServiceBus", 66
+"Scaling Applications with Microservices, MassTransit, and RabbitMQ", 54
+"Scaling Go Applications Horizontally", 44
+"Scaling Java Applications Through Concurrency", 36
+"Scheme", 2
+"Scrum Master Skills", 59
+"Scrum Master Skills _ Pluralsight_files", 30
+"Seamless JavaScript Testing with Wallaby.js", 58
+"Search Engine Optimization with ASP.NET", 30
+"Securing Your Application with OAuth and Passport", 28
+"Security Concepts for CCNA Security (210-260) IINS", 46
+"Security for CompTIA A+ (220-902)", 109
+"Security for CompTIA Server+ (SK0-004)", 45
+"Security for Hackers and Developers - Code Auditing", 18
+"Security for Hackers and Developers - Overview", 25
+"Semantic UI 2.0", 76
+"Server Administration for CompTIA Server+ (SK0-004)", 55
+"SharePoint 2010 Development", 31
+"SharePoint 2010 Fundamentals", 42
+"SharePoint 2010 Security", 24
+"SharePoint Development with the CSOM and REST API", 47
+"SharePoint Environment Auditing", 19
+"SharePoint Lists and Libraries for Developers", 50
+"SharePoint Server 2010 Development (70-573) Part 1", 52
+"SharePoint Server 2010 Development (70-573) Part 2", 59
+"SharePoint Server 2010 Development (70-573) Part 3", 53
+"SharePoint Server 2010 Development (70-573) Part 4", 38
+"Shell Scripting with Bash", 84
+"Shell Scripting with Bash _ Pluralsight_files", 30
+"Silverlight 3 Advanced Topics", 44
+"Silverlight 3 Fundamentals", 186
+"Silverlight Server Communication", 36
+"Simplified .NET Background Tasks with Hangfire", 45
+"Skype Web SDK - Getting Started", 38
+"Software Engineering Essentials", 122
+"Software Process Management", 62
+"Solution Modeling with UML in Visual Studio 2010", 43
+"Solve Math Problems with JavaScript", 47
+"Spring Boot - Efficient Development, Configuration, and Deployment", 35
+"Start Developing for Android", 17
+"Start Developing for Android _ Pluralsight_files", 30
+"Starting in Symfony2", 81
+"Streams, Collectors, and Optionals for Data Processing in Java 8", 118
+"Stripe Fundamentals with ASP.NET MVC", 56
+"Styling React Components", 25
+"SugarCRM CE - Getting Started", 38
+"Swift in Depth", 70
+"System Center Operations Manager 2007 - Monitoring", 111
+"System Volume Information", 2
+"T-SQL Window Functions", 62
+"TCP_IP Networking for Developers", 32
+"TDD as a Design Tool", 23
+"Tactical Design Patterns in .NET - Control Flow", 115
+"Tactical Design Patterns in .NET - Managing Responsibilities", 55
+"Tactical Design Patterns in .NET_ Control Flow _ Pluralsight_files", 30
+"Tactics and Tools for Troubleshooting Front-end Web Development", 32
+"Taking The Leap from Flash to HTML5 Video", 38
+"Team Foundation Server 2010 Version Control", 65
+"Technical Writing - Documentation on Software Projects", 35
+"Test First Development - Part 2", 6
+"Test-Driven Development with F#", 46
+"Test-First Development for Rails", 10
+"Test-driven Rails with RSpec, Capybara, and Cucumber", 60
+"Testing .NET Code with xUnit.net 2", 46
+"Testing AngularJS From Scratch", 21
+"Testing Clientside JavaScript", 49
+"Testing Clientside JavaScript _ Pluralsight_files", 31
+"Testing JS", 5
+"Testing PowerShell with Pester", 35
+"TextMate for Rails 1", 13
+"TextMate for Rails 2", 12
+"The C Programming Language in Action", 77
+"The Eclipse Guided Tour - Part 1", 2
+"The Eclipse Guided Tour - Part 2", 46
+"The Future of Technology Careers", 33
+"The Geolocation API - Using Maps and Location in Your Web Pages", 39
+"The Go Programming Language", 125
+"The Journey from MVC to Angular", 64
+"The PostgreSQL Document Database", 46
+"The Python Developer's Toolkit", 4
+"Theming Basics For Drupal 7", 16
+"Top 10 Cool PowerShell v3 Features with Windows Server 2012", 19
+"Tracking Real World Web Performance", 42
+"Triggers in Oracle", 55
+"Troubleshooting for CompTIA Server+ (SK0-004)", 77
+"TutsBootVideo", 40
+"TutsJSFundamental", 8
+"TutsJSFundamentalAdv", 16
+"TutsPlus - Foundational Flask Creating Your Own Static Blog Generator_tutGFX", 22
+"TutsPlus - PHP Fundamentals", 14
+"Tutsplus - Laravel Essentials", 14
+"Type-Driven Development with F#", 121
+"TypeScript Fundamentals", 75
+"TypeScript Fundamentals _ Pluralsight_files", 31
+"TypeScript In-depth", 99
+"UI Architecture", 28
+"UI Prototyping with Framer.js", 39
+"UML", 10
+"USB Forensics - Fundamentals", 27
+"UWP Audio Fundamentals", 43
+"UX Engineering Process", 30
+"Umbraco Jumpstart", 58
+"Underscore.js Fundamentals", 87
+"Understanding .NET and WCF Transactions", 23
+"Understanding ABAP Dictionary", 70
+"Understanding ASP.NET Core (Update)", 44
+"Understanding Distributed Version Control Systems", 61
+"Understanding Enterprise Architecture", 52
+"Understanding Machine Learning", 24
+"Understanding Machine Learning _ Pluralsight_files", 30
+"Understanding Machine Learning with R", 24
+"Understanding Metaprogramming", 61
+"Understanding NoSQL", 26
+"Understanding OWIN and Katana", 38
+"Understanding and Eliminating Technical Debt", 67
+"Understanding and Profiting from On-line Advertising", 35
+"Understanding the Java Virtual Machine - Class Loading and Reflection", 31
+"Understanding the Java Virtual Machine - Memory Management", 27
+"Understanding the Java Virtual Machine - Security", 25
+"Understanding the Shellshock Bash Bug", 2
+"Unit Testing In Java With JUnit", 85
+"Unit Testing with F#", 22
+"Unit Testing with MSTest", 66
+"Unit Testing with Node.js", 26
+"Unit Testing with Python", 70
+"User Experience First and in Context", 19
+"User Experience Tips and Tricks for Developers", 68
+"Using ASP.NET MVC with Umbraco", 36
+"Using ES6 in Your Node.js Web Application", 16
+"Using ES6 with TypeScript", 42
+"Using Force.com Integration APIs to Connect Your Applications", 136
+"Using Git with a GUI", 90
+"Using Google PageSpeed Insights to Improve Web Performance", 7
+"Using HTML5 and CSS3", 53
+"Using MongoDB with ASP.NET MVC", 54
+"Using StackOverflow and Other StackExchange Sites", 95
+"Using The Chrome Developer Tools", 41
+"Using TypeScript for Large AngularJS Applications", 32
+"Using Windows PowerShell with SharePoint 2010 and SharePoint 2013", 81
+"Using the MongoDB C# v2 Driver", 49
+"Using the Speech Recognition and Synthesis .NET APIs", 49
+"VB.NET Fundamentals", 49
+"VMware Data Recovery (VDR)", 52
+"VMware ESX Server - Configuring", 47
+"VMware Fusion 6 for the IT Pro", 1
+"VMware vSphere 4 - Configuring", 64
+"VMware vSphere Security", 95
+"VMware vSphere Security Design - Advanced Security", 58
+"VMware vSphere Security Design - Security Basics", 31
+"VPNs for CCNA Security (210-260) IINS", 25
+"VSTS 2008 By Example", 10
+"Visual Studio Code", 81
+"VisualStudioLynda", 81
+"VisualStudioNetTutorial", 11
+"WCF Advanced Topics", 71
+"WCF Design Concepts", 100
+"WCF Fundamentals", 76
+"WCF Power Topics", 255
+"WMI and Powershell", 49
+"WPF Advanced Topics", 87
+"WPF MVVM In Depth", 8
+"WPF Productivity Playbook", 25
+"WPF and MVVM - Advanced Model Treatment", 96
+"WPF and XAML Fundamentals", 170
+"Web API Design", 93
+"Web API Design _ Pluralsight_files", 30
+"Web API v2 Security", 74
+"Web Accessibility - Getting Started", 77
+"Web App Hacking - Cookie Attacks", 32
+"Web Application Performance and Scalability Testing", 54
+"Web Debugging by Example", 4
+"Web Development with ExpressJS", 39
+"Web Farms for Developers", 22
+"Web Performance", 42
+"Web Security and the OWASP Top 10 - The Big Picture", 42
+"WebGL and Three.js Fundamentals", 30
+"WebPageTest Deep Dive", 39
+"WebRTC Fundamentals", 33
+"WebStorm Fundamentals", 60
+"Webpack Fundamentals", 20
+"Website Performance", 34
+"Website Planning and Design in Sketch", 14
+"What Is Programming", 38
+"What's New in Angular 1.3", 64
+"What's New in C# 6", 36
+"What's New in Django 1.7 and 1.8", 29
+"What's New in Java 8", 86
+"What's New in PHP 7", 27
+"What's New in Silverlight 5", 38
+"What's New in iOS 7", 44
+"What's New in iOS 8", 26
+"What's New in iOS 9", 36
+"Windows - How It's Hacked, How to Protect It", 29
+"Windows 10 Client Administration", 121
+"Windows 10 Configuring (70-697) - Configure Networking", 34
+"Windows 10 Configuring (70-697) - Configure Storage", 36
+"Windows 10 First Look", 37
+"Windows 10 Troubleshooting", 126
+"Windows 2000 Server Routing Essentials", 19
+"Windows 7 Administration (70-680) Part 1 - Install and Deploy", 57
+"Windows 7 Administration (70-680) Part 2 - Initial Security Config", 60
+"Windows 7 Administration (70-680) Part 3 - Manage Applications", 44
+"Windows 7 Administration (70-680) Part 4 - Remote Configuration", 57
+"Windows 7 Deployment (70-681) - Deploying with WDS and SCCM", 91
+"Windows 7 Deployment (70-681) - Getting Ready to Deploy", 51
+"Windows 7 Deployment (70-681) - Images", 36
+"Windows 7 Deployment (70-681) - Microsoft Deployment Toolkit", 51
+"Windows 7 Fundamentals", 77
+"Windows 7 Troubleshooting", 45
+"Windows Azure - The Big Picture", 11
+"Windows Azure Access Control Service", 42
+"Windows Azure Caching Service", 30
+"Windows Azure Diagnostics", 37
+"Windows Azure Fundamentals", 55
+"Windows Azure Marketplace", 42
+"Windows Azure Mobile Services", 73
+"Windows Azure Service Bus", 36
+"Windows Azure Storage In-Depth", 82
+"Windows Phone 7 'Mango' Multitasking", 48
+"Windows Phone 7.5 Data", 57
+"Windows Phone 7.5 Integration Features", 45
+"Windows Runtime Internals", 32
+"Windows Server AppFabric Hosting Fundamentals", 40
+"Windows Workflow 3.5 Advanced Topics", 79
+"Windows Workflow 3.5 Fundamentals", 77
+"WordPress Custom Theme Development", 29
+"WordPress Fundamentals - WP_Query and the Loop", 33
+"WordPress as a Network - Mastering WordPress Multisite", 26
+"Working with Collections in Oracle PL_SQL", 95
+"Working with JavaScript and WordPress", 30
+"Working with Nulls in C#", 34
+"Working with Polymer.js Elements", 54
+"Write Less Code with Xamarin Designer", 27
+"Writing Modular JavaScript", 5
+"XAML for Xamarin.Forms", 29
+"XMPP_Jabber with Ruby", 10
+"Xamarin Continuous Integration Using TeamCity and FAKE", 46
+"Xamarin.Forms and Data", 37
+"Your Database Is Your Friend", 56
+"Your Database Is Your Friend _ Pluralsight_files", 30
+"Zend Db Deep Dive", 36
+[Pluralsight] An AngularJS Playbook, 68
+[Pluralsight] AngularJS Directives Fundamentals, 6
+[Pluralsight] AngularJS Services In-depth, 2
+[Pluralsight] Play by Play - Learning AngularJS With Ken Cenerelli and John Papa, 39
+"angular_clean_code_slides", 11
+"angular_services_slides", 7
+"comics", 7
+"dropwizard", 2
+"flew", 75
+"hibbert", 16
+"iOS 7 Fundamentals", 73
+"iOS 9 Fundamentals", 26
+"iOS Debugging in Xcode", 47
+"iOS Graphics and Animation Programming", 76
+"iOS Sprite Kit Fundamentals", 48
+"iOS Unit Testing with XCTest", 66
+"iPhone ASP.NET Fundamentals", 230
+"jQuery - Getting Started", 62
+"jQuery Advanced Topics", 42
+"jQuery Animation", 59
+"jQuery Forms and Bootstrap 3", 64
+"jQuery Fundamentals", 60
+"jQuery In-Depth", 21
+"jQuery Mobile and ASP.NET MVC 4", 30
+"jQuery Plugins & jQuery UI", 25
+"jQuery Template Fundamentals", 15
+"jQuery Tips and Tricks", 76
+"jQuery UI", 41
+"jQuery-free JavaScript", 75
+"javascript-best-practices (1)", 9
+"mean js", 31
+"modular-angular", 17
+"morePlural", 17
+"ng-demos", 12
+"phpMyAdmin Fundamentals", 57
+"rapid-es6-training", 9
+"udemy.com - AngularJS JumpStart with Dan Wahlin (by BrutalStorm)", 7
+"A Practical Start with TypeScript", 55
+"AWS Developer - The Big Picture", 15
+"Advanced Git Tips and Tricks", 40
+"Advanced Machine Learning with ENCOG - Part 2", 79
+"Alan Turing's Wonderful Machine", 25
+"An AngularJS Playbook", 64
+"Angular Application Development", 37
+"Angular Directives Fundamentals", 39
+"Angular for .NET Developers", 72
+"AngularJS Forms Using Bootstrap and MVC 5", 57
+"AngularJS Line of Business Applications", 79
+"Application Building Patterns with AngularJS", 42
+"Aurelia Fundamentals", 144
+"Automated Tests with PHPUnit", 21
+"Building Web Applications with Node.js and Express 4.0", 71
+"Building a Real World iOS Application with Swift", 40
+"End-to-end Software Development with Team Foundation Server 2015", 113
+"Ethical Hacking - Understanding Ethical Hacking", 82
+"Excel Application Development with VBA", 56
+"Geospatial Mapping with D3", 43
+"Getting Started With Java EE on WebSphere® Application Server", 1
+"Getting Started with Jenkins 2", 65
+"Google Analytics Fundamentals", 69
+"Google Maps API - Get Started", 29
+"HTTP_2 Fundamentals", 9
+"Introduction to Protractor", 22
+"Introduction to the Bash Shell on Mac OS and Linux", 25
+"JCache Fundamentals", 27
+"JavaScript - The Good Parts", 30
+"JavaScript Animation with GSAP", 29
+"Juniper JNCIS-SEC – Introduction to Junos Security and Zones", 13
+"LFCE - Advanced Linux Networking", 76
+"LFCS - Linux Operation Essentials", 62
+"LINQ Data Access", 114
+"LPI - Linux Essentials (010-150)", 22
+"Linux Administration with sed and awk", 56
+"Linux Command Line Interface (CLI) Fundamentals", 71
+"Linux Kernel and System Startup (LPIC-2)", 50
+"Linux Managing DNS Servers (LPIC-2)", 56
+"Linux Network Security (LPIC-3 303)", 11
+"Managing Information Security Incidents (ISO_IEC 27002)", 6
+"Meteor.js Fundamentals for Single Page Applications", 96
+"Microsoft MTA - Networking Fundamentals Part 1", 67
+"NET Reactive Extensions Fundamentals 1.0", 104
+"Network Security Testing With NMAP", 42
+"Play by Play - Angular 2_RxJS_HTTP and RESTful Services with John Papa and Dan Wahlin", 15
+"Play by Play - Angular with Typescript with John Papa and Christopher Martin", 17
+"Play by Play - AngularJS Application Design with John Papa and Ward Bell", 10
+"Play by Play - Deploying an Angular 2 App to Azure with Git with John Papa and Shayne Boyer", 10
+"Play by Play - Ethical Hacking - Deconstructing the Hack", 9
+"Play by Play - Ethical Hacking with Troy Hunt", 9
+"Play by Play - Open Source Projects from the PowerShell Team", 12
+"Play by Play - The Application Platform in Windows Server 2016", 12
+"Practical Networking", 54
+"Practical TypeScript Migration", 22
+"Professionalism for Developers", 48
+"Raspberry Pi Home Server", 102
+"Reasoning About Asynchronous JavaScript", 29
+"Refactoring Fundamentals", 191
+"SQL Server 2008 Advanced Database Administration - Part 3", 64
+"SQL on Hadoop - Analyzing Big Data with Hive", 58
+"Scrum Master Fundamentals - Foundations", 15
+"So You Want to be an Entrepreneur", 80
+"Swift for iOS Developers", 36
+"TCP_IP and Networking Fundamentals for IT Pros", 43
+"Tactical Design Patterns in .NET - Creating Objects", 72
+"Understanding Machine Learning with Python", 35
+"Understanding the MapReduce Programming Model", 25
+"Useful jQuery Plugins", 65
+"Using OAuth to Secure Your ASP.NET API", 48
+"What's New in the OWASP Top 10 for 2013", 33
+"Yeoman Fundamentals", 51
