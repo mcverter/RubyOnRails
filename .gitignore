@@ -6,6 +6,8 @@ README.md
 .idea
 /DesignPatterns/Factory/DB_java/Factory_DerekB/nbproject/private/
 /DesignPatterns/Factory/DB_java/Factory_DB/nbproject/private/
+*.tar
+*.gz
 *pyc
 .metadata/*
 *pdf
