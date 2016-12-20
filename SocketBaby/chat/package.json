@@ -1,0 +1,11 @@
+{
+  "name" : "socket.io-chat",
+  "version" : "0.0.0",
+  "description" : "A simple chat client",
+  "main" : "index.js",
+  "private" : false,
+  "license" : "BSD",
+  "dependencies": {
+    "express" : "3.4.8"
+  }
+}
