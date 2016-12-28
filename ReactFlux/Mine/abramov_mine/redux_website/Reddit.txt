@@ -340,7 +340,7 @@ export default class Posts extends Component {
         )}
       </ul>
     )
-  }
+  }git
 }
 
 Posts.propTypes = {
